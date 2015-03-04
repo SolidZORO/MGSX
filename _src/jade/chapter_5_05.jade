@@ -1,0 +1,670 @@
+extends ./layout/default.jade
+
+block variable
+    - var chapter_num = "5.5"
+    - var chapter_title_en = "I'm your shadow!"
+    - var chapter_title_cn = "我是你的影子！"
+
+
+block title
+    title MGS #{chapter_num} - #{chapter_title_en} (#{chapter_title_cn})
+
+block container
+    h2.title.title-en
+        span.title-num #{chapter_num}
+        strong.title-en
+            | #{chapter_title_en}
+        strong.title-cn
+            | #{chapter_title_cn}
+
+
+    .section
+        .dialog.dialog-snake
+            em.name.name-snake
+                | Snake
+                span :
+            p.msg.msg-en
+                | Damn! (Suddenly Liquid comes into view with his Hind.)
+            p.msg.msg-cn
+                | NULL
+        .dialog
+            em.name.name-liquid
+                | Liquid
+                span :
+            p.msg.msg-en
+                | Snaaaaake!!  I'm afraid I can't let you get past here!
+            p.msg.msg-cn
+                | NULL
+        .dialog.dialog-snake
+            em.name.name-snake
+                | Snake
+                span :
+            p.msg.msg-en
+                | Liquid?
+            p.msg.msg-cn
+                | NULL
+        .dialog
+            em.name.name-liquid
+                | Liquid
+                span :
+            p.msg.msg-en
+                | You're not going any farther.  Die!!! (Snake looks over the side of the tower.)
+            p.msg.msg-cn
+                | NULL
+        .dialog.dialog-snake
+            em.name.name-snake
+                | Snake
+                span :
+            p.msg.msg-en
+                | It's a long way down. If only I had a rope.  I should be able to use that rope I got...
+            p.msg.msg-cn
+                | NULL
+        .dialog
+            em.name.name-liquid
+                | Liquid
+                span :
+            p.msg.msg-en
+                | What are you going to do? Take on a Hind with your bare hands? Now you're mine!
+            p.msg.msg-cn
+                | NULL
+        .dialog.dialog-snake
+            em.name.name-snake
+                | Snake
+                span :
+            p.msg.msg-en
+                | If I stay here, I'm finished. (Snake uses a rope that he acquired earlier to descend from the tower.  He reaches tower B but finds that the stairs to the bottom are destroyed and he cannot pass. He heads back up.  He hears a noise so he whips around the corner with his gun.)
+            p.msg.msg-cn
+                | NULL
+        .dialog
+            em.name.name-otacon
+                | Otacon
+                span :
+            p.msg.msg-en
+                | Don't shoot!!  It's me! Don't shoot!  It's me, Snake!!
+            p.msg.msg-cn
+                | NULL
+        .dialog.dialog-snake
+            em.name.name-snake
+                | Snake
+                span :
+            p.msg.msg-en
+                | Otacon? How'd you get here?
+            p.msg.msg-cn
+                | NULL
+        .dialog
+            em.name.name-otacon
+                | Otacon
+                span :
+            p.msg.msg-en
+                | It wasn't as dramatic as your entrance, believe me. I'm afraid of heights.
+            p.msg.msg-cn
+                | NULL
+        .dialog.dialog-snake
+            em.name.name-snake
+                | Snake
+                span :
+            p.msg.msg-en
+                | You were watching?
+            p.msg.msg-cn
+                | NULL
+        .dialog
+            em.name.name-otacon
+                | Otacon
+                span :
+            p.msg.msg-en
+                | Yeah, I was watching.  I was riding in the back of their truck... thanks to the stealth camouflage.
+            p.msg.msg-cn
+                | NULL
+        .dialog.dialog-snake
+            em.name.name-snake
+                | Snake
+                span :
+            p.msg.msg-en
+                | How did you get up here?
+            p.msg.msg-cn
+                | NULL
+        .dialog
+            em.name.name-otacon
+                | Otacon
+                span :
+            p.msg.msg-en
+                | The elevator, of course.
+            p.msg.msg-cn
+                | NULL
+        .dialog.dialog-snake
+            em.name.name-snake
+                | Snake
+                span :
+            p.msg.msg-en
+                | The 1st floor of the circular staircase was destroyed.
+            p.msg.msg-cn
+                | NULL
+        .dialog
+            em.name.name-otacon
+                | Otacon
+                span :
+            p.msg.msg-en
+                | That's why I took the elevator...
+            p.msg.msg-cn
+                | NULL
+        .dialog.dialog-snake
+            em.name.name-snake
+                | Snake
+                span :
+            p.msg.msg-en
+                | The elevator was working?
+            p.msg.msg-cn
+                | NULL
+        .dialog
+            em.name.name-otacon
+                | Otacon
+                span :
+            p.msg.msg-en
+                | Yeah, that's right. You're incredible... like a movie hero or something.
+            p.msg.msg-cn
+                | NULL
+        .dialog.dialog-snake
+            em.name.name-snake
+                | Snake
+                span :
+            p.msg.msg-en
+                | No...you're wrong.  In the movies, the hero always saves the girl...
+            p.msg.msg-cn
+                | NULL
+        .dialog
+            em.name.name-otacon
+                | Otacon
+                span :
+            p.msg.msg-en
+                | ...You mean Meryl? ...Sorry... forget I said anything... Snake, there's something I've really got to ask you. It's why I followed you up this far...  Have you ever ...loved someone?
+            p.msg.msg-cn
+                | NULL
+        .dialog.dialog-snake
+            em.name.name-snake
+                | Snake
+                span :
+            p.msg.msg-en
+                | That's what you came to ask?
+            p.msg.msg-cn
+                | NULL
+        .dialog
+            em.name.name-otacon
+                | Otacon
+                span :
+            p.msg.msg-en
+                | No I mean... I... I was wondering if even soldiers fall in love...
+            p.msg.msg-cn
+                | NULL
+        .dialog.dialog-snake
+            em.name.name-snake
+                | Snake
+                span :
+            p.msg.msg-en
+                | What are you trying to say?
+            p.msg.msg-cn
+                | NULL
+        .dialog
+            em.name.name-otacon
+                | Otacon
+                span :
+            p.msg.msg-en
+                | I wanna ask you... Do you think love can bloom even on a battlefield?
+            p.msg.msg-cn
+                | NULL
+        .dialog.dialog-snake
+            em.name.name-snake
+                | Snake
+                span :
+            p.msg.msg-en
+                | Yeah...I do.  I think at any time, any place... people can fall in love with each other.  But... if you love someone, you have to be able to protect them...
+            p.msg.msg-cn
+                | NULL
+        .dialog
+            em.name.name-otacon
+                | Otacon
+                span :
+            p.msg.msg-en
+                | I think so too.
+            p.msg.msg-cn
+                | NULL
+        .dialog.dialog-snake
+            em.name.name-snake
+                | Snake
+                span :
+            p.msg.msg-en
+                | I have a favor to ask.
+            p.msg.msg-cn
+                | NULL
+        .dialog
+            em.name.name-otacon
+                | Otacon
+                span :
+            p.msg.msg-en
+                | Uh oh.
+            p.msg.msg-cn
+                | NULL
+        .dialog.dialog-snake
+            em.name.name-snake
+                | Snake
+                span :
+            p.msg.msg-en
+                | Don't worry. It'll be easy.
+            p.msg.msg-cn
+                | NULL
+        .dialog
+            em.name.name-otacon
+                | Otacon
+                span :
+            p.msg.msg-en
+                | Umm...I told you before, I don't wanna hurt anyone.
+            p.msg.msg-cn
+                | NULL
+        .dialog.dialog-snake
+            em.name.name-snake
+                | Snake
+                span :
+            p.msg.msg-en
+                | I don't want you to either.
+            p.msg.msg-cn
+                | NULL
+        .dialog
+            em.name.name-otacon
+                | Otacon
+                span :
+            p.msg.msg-en
+                | Okay...
+            p.msg.msg-cn
+                | NULL
+        .dialog.dialog-snake
+            em.name.name-snake
+                | Snake
+                span :
+            p.msg.msg-en
+                | The elevator is stopped down there. I want you to get it to move. You see?
+            p.msg.msg-cn
+                | NULL
+        .dialog
+            em.name.name-otacon
+                | Otacon
+                span :
+            p.msg.msg-en
+                | That's weird.
+            p.msg.msg-cn
+                | NULL
+        .dialog.dialog-snake
+            em.name.name-snake
+                | Snake
+                span :
+            p.msg.msg-en
+                | It was working before, but now it isn't.
+            p.msg.msg-cn
+                | NULL
+        .dialog
+            em.name.name-otacon
+                | Otacon
+                span :
+            p.msg.msg-en
+                | ...Maybe the panel's broken?
+            p.msg.msg-cn
+                | NULL
+        .dialog.dialog-snake
+            em.name.name-snake
+                | Snake
+                span :
+            p.msg.msg-en
+                | Can you fix it?
+            p.msg.msg-cn
+                | NULL
+        .dialog
+            em.name.name-otacon
+                | Otacon
+                span :
+            p.msg.msg-en
+                | It was working before. If it's the mechanism, leave it to me.
+            p.msg.msg-cn
+                | NULL
+        .dialog.dialog-snake
+            em.name.name-snake
+                | Snake
+                span :
+            p.msg.msg-en
+                | I've got to go and swat a noisy fly.
+            p.msg.msg-cn
+                | NULL
+        .dialog
+            em.name.name-otacon
+                | Otacon
+                span :
+            p.msg.msg-en
+                | Okay. I'll stay here and hold the fort.  Good luck.
+            p.msg.msg-cn
+                | NULL
+        .dialog.dialog-snake
+            em.name.name-snake
+                | Snake
+                span :
+            p.msg.msg-en
+                | You really look like hell. Are you okay?
+            p.msg.msg-cn
+                | NULL
+        .dialog
+            em.name.name-otacon
+                | Otacon
+                span :
+            p.msg.msg-en
+                | Don't worry.  If I do this, it doesn't matter.  I just pretend like I'm not here. Then I'm not scared. (Otacon turns on his stealth camouflage.)
+            p.msg.msg-cn
+                | NULL
+        .dialog.dialog-snake
+            em.name.name-snake
+                | Snake
+                span :
+            p.msg.msg-en
+                | Strange logic. I'm counting on you. (Otacon runs off to repair the elevator. Snake reaches the top of Comm. Tower B and comes face to face with Liquid's Hind.)
+            p.msg.msg-cn
+                | NULL
+        .dialog
+            em.name.name-liquid
+                | Liquid
+                span :
+            p.msg.msg-en
+                | So the Snake's finally come out of his hole?  Are you ready now... my brother?
+            p.msg.msg-cn
+                | NULL
+        .dialog.dialog-snake
+            em.name.name-snake
+                | Snake
+                span :
+            p.msg.msg-en
+                | Why are you calling me brother?  Who the hell are you!?
+            p.msg.msg-cn
+                | NULL
+        .dialog
+            em.name.name-liquid
+                | Liquid
+                span :
+            p.msg.msg-en
+                | I'm you.  I'm your shadow.
+            p.msg.msg-cn
+                | NULL
+        .dialog.dialog-snake
+            em.name.name-snake
+                | Snake
+                span :
+            p.msg.msg-en
+                | What!?
+            p.msg.msg-cn
+                | NULL
+        .dialog
+            em.name.name-liquid
+                | Liquid
+                span :
+            p.msg.msg-en
+                | Ask the father that you killed! I'll send you to hell to meet him!! (Snake fights the Hind D and defeats it.  Liquid is now fighting to get it stablized.)
+            p.msg.msg-cn
+                | NULL
+        .dialog
+            em.name.name-liquid
+                | Liquid
+                span :
+            p.msg.msg-en
+                | C'mon, fly!  Damn!!  Snaaake!! (The Hind falls from the sky and explodes in a huge fireball.)
+            p.msg.msg-cn
+                | NULL
+        .dialog.dialog-snake
+            em.name.name-snake
+                | Snake
+                span :
+            p.msg.msg-en
+                | See you in hell...Liquid.  That takes care of the cremation. (Otacon calls on the Codec.)
+            p.msg.msg-cn
+                | NULL
+        .dialog
+            em.name.name-otacon
+                | Otacon
+                span :
+            p.msg.msg-en
+                | Snake, the elevator's working.
+            p.msg.msg-cn
+                | NULL
+        .dialog.dialog-snake
+            em.name.name-snake
+                | Snake
+                span :
+            p.msg.msg-en
+                | You fixed it?
+            p.msg.msg-cn
+                | NULL
+        .dialog
+            em.name.name-otacon
+                | Otacon
+                span :
+            p.msg.msg-en
+                | No, that's the weird thing.  It just moved by itself. It's headed your way now.
+            p.msg.msg-cn
+                | NULL
+        .dialog.dialog-snake
+            em.name.name-snake
+                | Snake
+                span :
+            p.msg.msg-en
+                | Is that so? Okay.
+            p.msg.msg-cn
+                | NULL
+        .dialog
+            em.name.name-otacon
+                | Otacon
+                span :
+            p.msg.msg-en
+                | That explosion before... what was it?
+            p.msg.msg-cn
+                | NULL
+        .dialog.dialog-snake
+            em.name.name-snake
+                | Snake
+                span :
+            p.msg.msg-en
+                | Oh, I had to take out that helicopter.
+            p.msg.msg-cn
+                | NULL
+        .dialog
+            em.name.name-otacon
+                | Otacon
+                span :
+            p.msg.msg-en
+                | Helicopter? That's incredible, Snake!
+            p.msg.msg-cn
+                | NULL
+        .dialog.dialog-snake
+            em.name.name-snake
+                | Snake
+                span :
+            p.msg.msg-en
+                | Listen. I just want to make sure again.  This is the way to get to where Metal Gear is being stored?
+            p.msg.msg-cn
+                | NULL
+        .dialog
+            em.name.name-otacon
+                | Otacon
+                span :
+            p.msg.msg-en
+                | Yeah. The entrance to the underground maintenance base is towards the back of the snowfield ahead.
+            p.msg.msg-cn
+                | NULL
+        .dialog.dialog-snake
+            em.name.name-snake
+                | Snake
+                span :
+            p.msg.msg-en
+                | Okay. Find a safe place to hide out for a while.  I'm going underground.
+            p.msg.msg-cn
+                | NULL
+        .dialog
+            em.name.name-otacon
+                | Otacon
+                span :
+            p.msg.msg-en
+                | I know, I know. You don't have to tell me.
+            p.msg.msg-cn
+                | NULL
+        .dialog.dialog-snake
+            em.name.name-snake
+                | Snake
+                span :
+            p.msg.msg-en
+                | And stay outta my way. Don't try to be a hero or anything.
+            p.msg.msg-cn
+                | NULL
+        .dialog
+            em.name.name-otacon
+                | Otacon
+                span :
+            p.msg.msg-en
+                | Okay, call me if you need to.
+            p.msg.msg-cn
+                | NULL
+        .dialog
+            em.name.name-otacon
+                | Otacon
+                span :
+            p.msg.msg-en
+                | Snake, there's something I forgot to tell you before.
+            p.msg.msg-cn
+                | NULL
+        .dialog.dialog-snake
+            em.name.name-snake
+                | Snake
+                span :
+            p.msg.msg-en
+                | What?
+            p.msg.msg-cn
+                | NULL
+        .dialog
+            em.name.name-otacon
+                | Otacon
+                span :
+            p.msg.msg-en
+                | There were five stealth camouflage prototypes in my lab.
+            p.msg.msg-cn
+                | NULL
+        .dialog.dialog-snake
+            em.name.name-snake
+                | Snake
+                span :
+            p.msg.msg-en
+                | Yeah, so?
+            p.msg.msg-cn
+                | NULL
+        .dialog
+            em.name.name-otacon
+                | Otacon
+                span :
+            p.msg.msg-en
+                | If you take out the one I'm wearing, that leaves four.
+            p.msg.msg-cn
+                | NULL
+        .dialog.dialog-snake
+            em.name.name-snake
+                | Snake
+                span :
+            p.msg.msg-en
+                | Hey. This isn't first grade math class.
+            p.msg.msg-cn
+                | NULL
+        .dialog
+            em.name.name-otacon
+                | Otacon
+                span :
+            p.msg.msg-en
+                | I thought I'd get one for you, so I went back to the lab and...
+            p.msg.msg-cn
+                | NULL
+        .dialog.dialog-snake
+            em.name.name-snake
+                | Snake
+                span :
+            p.msg.msg-en
+                | Yeah?
+            p.msg.msg-cn
+                | NULL
+        .dialog
+            em.name.name-otacon
+                | Otacon
+                span :
+            p.msg.msg-en
+                | The four suits were missing.
+            p.msg.msg-cn
+                | NULL
+        .dialog.dialog-snake
+            em.name.name-snake
+                | Snake
+                span :
+            p.msg.msg-en
+                | .........?
+            p.msg.msg-cn
+                | NULL
+        .dialog
+            em.name.name-otacon
+                | Otacon
+                span :
+            p.msg.msg-en
+                | Also...about the elevator that I checked out... It's really strange.  It was like someone was intentionally holding it.
+            p.msg.msg-cn
+                | NULL
+        .dialog.dialog-snake
+            em.name.name-snake
+                | Snake
+                span :
+            p.msg.msg-en
+                | When you were riding on it, did the weight limit warning go off?
+            p.msg.msg-cn
+                | NULL
+        .dialog
+            em.name.name-otacon
+                | Otacon
+                span :
+            p.msg.msg-en
+                | That's another thing that bothered me about it... The warning went off and I know I couldn't be over the limit.
+            p.msg.msg-cn
+                | NULL
+        .dialog.dialog-snake
+            em.name.name-snake
+                | Snake
+                span :
+            p.msg.msg-en
+                | How much do you weigh?
+            p.msg.msg-cn
+                | NULL
+        .dialog
+            em.name.name-otacon
+                | Otacon
+                span :
+            p.msg.msg-en
+                | About 135.  But that elevator had a weight limit of 650 pounds.
+            p.msg.msg-cn
+                | NULL
+        .dialog.dialog-snake
+            em.name.name-snake
+                | Snake
+                span :
+            p.msg.msg-en
+                | It would take at least five people to go over that limit...
+            p.msg.msg-cn
+                | NULL
+        .dialog
+            em.name.name-otacon
+                | Otacon
+                span :
+            p.msg.msg-en
+                | L...Look out, Snake!  The guys who stole my stealth prototypes are in there with you!!!
+            p.msg.msg-cn
+                | NULL
+        .dialog
+            em.name.name-guard
+                | Guard
+                span :
+            p.msg.msg-en
+                | Too late, Snake!  Now die!
+                | (Snake battles the guards and defeats them.  Snake enters the snowfield but when he is halfway across he is shot at by a sniper.)
+
+

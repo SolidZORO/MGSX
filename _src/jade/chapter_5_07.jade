@@ -1,0 +1,451 @@
+extends ./layout/default.jade
+
+block variable
+    - var chapter_num = "5.7"
+    - var chapter_title_en = "The Truth"
+    - var chapter_title_cn = "真相"
+
+
+block title
+    title MGS #{chapter_num} - #{chapter_title_en} (#{chapter_title_cn})
+
+block container
+    h2.title.title-en
+        span.title-num #{chapter_num}
+        strong.title-en
+            | #{chapter_title_en}
+        strong.title-cn
+            | #{chapter_title_cn}
+
+
+    .section
+        .dialog
+            em.name.name-master
+                | Master
+                span :
+            p.msg.msg-en
+                | Snake, there's something I've got to tell you about Naomi Hunter?
+            p.msg.msg-cn
+                | NULL
+        .dialog.dialog-snake
+            em.name.name-snake
+                | Snake
+                span :
+            p.msg.msg-en
+                | What about her?
+            p.msg.msg-cn
+                | NULL
+        .dialog
+            em.name.name-master
+                | Master
+                span :
+            p.msg.msg-en
+                | Is this conversation secure?
+            p.msg.msg-cn
+                | NULL
+        .dialog.dialog-snake
+            em.name.name-snake
+                | Snake
+                span :
+            p.msg.msg-en
+                | Don't worry.  The monitor's off.
+            p.msg.msg-cn
+                | NULL
+        .dialog
+            em.name.name-master
+                | Master
+                span :
+            p.msg.msg-en
+                | Okay.
+            p.msg.msg-cn
+                | NULL
+        .dialog.dialog-snake
+            em.name.name-snake
+                | Snake
+                span :
+            p.msg.msg-en
+                | What's up?
+            p.msg.msg-cn
+                | NULL
+        .dialog
+            em.name.name-master
+                | Master
+                span :
+            p.msg.msg-en
+                | I was in the FBI too, y'know.
+            p.msg.msg-cn
+                | NULL
+        .dialog.dialog-snake
+            em.name.name-snake
+                | Snake
+                span :
+            p.msg.msg-en
+                | I didn't know that.  What's your point?
+            p.msg.msg-cn
+                | NULL
+        .dialog
+            em.name.name-master
+                | Master
+                span :
+            p.msg.msg-en
+                | Dr. Hunter's story about her background... about her grandfather being an assistant secretary to Hoover in the FBI...
+            p.msg.msg-cn
+                | NULL
+        .dialog.dialog-snake
+            em.name.name-snake
+                | Snake
+                span :
+            p.msg.msg-en
+                | Yeah?
+            p.msg.msg-cn
+                | NULL
+        .dialog
+            em.name.name-master
+                | Master
+                span :
+            p.msg.msg-en
+                | And then going undercover to investigate the mafia in New York...
+            p.msg.msg-cn
+                | NULL
+        .dialog.dialog-snake
+            em.name.name-snake
+                | Snake
+                span :
+            p.msg.msg-en
+                | Yeah, what about it?
+            p.msg.msg-cn
+                | NULL
+        .dialog
+            em.name.name-master
+                | Master
+                span :
+            p.msg.msg-en
+                | It was all a big lie.
+            p.msg.msg-cn
+                | NULL
+        .dialog.dialog-snake
+            em.name.name-snake
+                | Snake
+                span :
+            p.msg.msg-en
+                | What did you say?
+            p.msg.msg-cn
+                | NULL
+        .dialog
+            em.name.name-master
+                | Master
+                span :
+            p.msg.msg-en
+                | It was really bothering me.  Why would she lie about it?
+            p.msg.msg-cn
+                | NULL
+        .dialog.dialog-snake
+            em.name.name-snake
+                | Snake
+                span :
+            p.msg.msg-en
+                | She lied?
+            p.msg.msg-cn
+                | NULL
+        .dialog
+            em.name.name-master
+                | Master
+                span :
+            p.msg.msg-en
+                | She might be a spy!
+            p.msg.msg-cn
+                | NULL
+        .dialog.dialog-snake
+            em.name.name-snake
+                | Snake
+                span :
+            p.msg.msg-en
+                | Rediculous!
+            p.msg.msg-cn
+                | NULL
+        .dialog
+            em.name.name-master
+                | Master
+                span :
+            p.msg.msg-en
+                | C'mon.  Even a high school student could see past it.  The head of the FBI at that time, Edgar Hoover... he was a well known racist. Didn't Naomi say that her father was Japanese?
+            p.msg.msg-cn
+                | NULL
+        .dialog.dialog-snake
+            em.name.name-snake
+                | Snake
+                span :
+            p.msg.msg-en
+                | Yeah...
+            p.msg.msg-cn
+                | NULL
+        .dialog
+            em.name.name-master
+                | Master
+                span :
+            p.msg.msg-en
+                | Well back then there wasn't a single Asian investigator.  Also, in the 1950's the undercover mafia sting operations hadn't even started yet.  They first started in 1960... in Chicago, not New York.
+            p.msg.msg-cn
+                | NULL
+        .dialog.dialog-snake
+            em.name.name-snake
+                | Snake
+                span :
+            p.msg.msg-en
+                | But...
+            p.msg.msg-cn
+                | NULL
+        .dialog
+            em.name.name-master
+                | Master
+                span :
+            p.msg.msg-en
+                | You better check it out.  The chief and the president dying, that ninja... too many strange things are happening.
+            p.msg.msg-cn
+                | NULL
+        .dialog.dialog-snake
+            em.name.name-snake
+                | Snake
+                span :
+            p.msg.msg-en
+                | Are you saying that Naomi might be behind it?
+            p.msg.msg-cn
+                | NULL
+        .dialog
+            em.name.name-master
+                | Master
+                span :
+            p.msg.msg-en
+                | I don't know.  Either that or she's working with the terrorists.
+            p.msg.msg-cn
+                | NULL
+        .dialog.dialog-snake
+            em.name.name-snake
+                | Snake
+                span :
+            p.msg.msg-en
+                | Could it be...?
+            p.msg.msg-cn
+                | NULL
+        .dialog
+            em.name.name-master
+                | Master
+                span :
+            p.msg.msg-en
+                | If I find out anything, I'll call.  In the meantime, be careful! (Snake gets off the elevator and enters a large warehouse.  There are crows flying around in it.  He sees a large man sitting atop one of the boxes.  It is Vulcan Raven.  He stands up.)
+            p.msg.msg-cn
+                | NULL
+        .dialog
+            em.name.name-raven
+                | Raven
+                span :
+            p.msg.msg-en
+                | Welcome, kasack!!  This is the end of the road for you!  Right my friends? (The ravens start making noise.)
+            p.msg.msg-cn
+                | NULL
+        .dialog
+            em.name.name-raven
+                | Raven
+                span :
+            p.msg.msg-en
+                | Listen.  They agree.  Ravens aren't scavengers like most people think... They are simply returning to the natural world that which is no longer needed.  Sometimes they even attack wounded foxes.
+            p.msg.msg-cn
+                | NULL
+        .dialog.dialog-snake
+            em.name.name-snake
+                | Snake
+                span :
+            p.msg.msg-en
+                | You were the one in the M1 tank?  Must have been a tight fit for a big boy like you.
+            p.msg.msg-cn
+                | NULL
+        .dialog
+            em.name.name-raven
+                | Raven
+                span :
+            p.msg.msg-en
+                | Ha ha ha ha ha... But that was no true battle. (Raven leaps down from the crate and lands with a thud.)
+            p.msg.msg-cn
+                | NULL
+        .dialog
+            em.name.name-raven
+                | Raven
+                span :
+            p.msg.msg-en
+                | The ravens and I were testing to see what kind of man you were. The judgement is decided.  The ravens say you are a true warrior. (Something bright emanates from Raven's forehead and flies towards Snake.)
+            p.msg.msg-cn
+                | NULL
+        .dialog.dialog-snake
+            em.name.name-snake
+                | Snake
+                span :
+            p.msg.msg-en
+                | Am I hallucinating? (A raven comes and sits on Snake's shoulder.)
+            p.msg.msg-cn
+                | NULL
+        .dialog.dialog-snake
+            em.name.name-snake
+                | Snake
+                span :
+            p.msg.msg-en
+                | I... I can't move...
+            p.msg.msg-cn
+                | NULL
+        .dialog
+            em.name.name-raven
+                | Raven
+                span :
+            p.msg.msg-en
+                | The Raven has put the mark of death upon you.  Blood from the east flows within your veins. Ah... your ancestors too were raised on the barren plains of Mongolia.  Inuit and Japanese are cousins to each other...  We share many ancestors, you and I...
+            p.msg.msg-cn
+                | NULL
+        .dialog.dialog-snake
+            em.name.name-snake
+                | Snake
+                span :
+            p.msg.msg-en
+                | I don't have any crows in my family tree.
+            p.msg.msg-cn
+                | NULL
+        .dialog
+            em.name.name-raven
+                | Raven
+                span :
+            p.msg.msg-en
+                | You jest but indeed ravens and snakes are not the best of friends. Nevertheless you will make a worthy adversary.  You live in Alaska too.  You know of the World Eskimo-Indian Olympics?
+            p.msg.msg-cn
+                | NULL
+        .dialog.dialog-snake
+            em.name.name-snake
+                | Snake
+                span :
+            p.msg.msg-en
+                | Yeah, I know it.  You must be a real threat in the "Muk-Tuk"eating contest.
+            p.msg.msg-cn
+                | NULL
+        .dialog
+            em.name.name-raven
+                | Raven
+                span :
+            p.msg.msg-en
+                | Yes, you are right.  But there is another event that I excel at.  It is called the "Ear Pull".  It is an event where two opponents pull each other's ear while enduring the harsh cold.  It tests spiritual as well as physical strength.
+            p.msg.msg-cn
+                | NULL
+        .dialog.dialog-snake
+            em.name.name-snake
+                | Snake
+                span :
+            p.msg.msg-en
+                | You want to pull each other's ears?
+            p.msg.msg-cn
+                | NULL
+        .dialog
+            em.name.name-raven
+                | Raven
+                span :
+            p.msg.msg-en
+                | The form is different, but the spirit is the same.  Rejoice, Snake! Ours will be a glorious battle.
+            p.msg.msg-cn
+                | NULL
+        .dialog.dialog-snake
+            em.name.name-snake
+                | Snake
+                span :
+            p.msg.msg-en
+                | This isn't glorious.  It's just plain killing.  Violence isn't a sport!
+            p.msg.msg-cn
+                | NULL
+        .dialog
+            em.name.name-raven
+                | Raven
+                span :
+            p.msg.msg-en
+                | Well, we will see if there is iron in your words!! (Snake battles Raven and defeats him.  Raven is now leaning against the wall, breathing hard.)
+            p.msg.msg-cn
+                | NULL
+        .dialog
+            em.name.name-raven
+                | Raven
+                span :
+            p.msg.msg-en
+                | Just as the Boss said... it is my existance wihich is no longer needed in this world. (A raven lands on Raven's shoulder.)
+            p.msg.msg-cn
+                | NULL
+        .dialog
+            em.name.name-raven
+                | Raven
+                span :
+            p.msg.msg-en
+                | But my body will not remain in this place.  My spirit and my flesh will become one with the ravens.  In that way I will return to Mother Earth who bore me.  Snake!  My spirit will be watching you... understand? (Snake walks over to Raven.)
+            p.msg.msg-cn
+                | NULL
+        .dialog
+            em.name.name-raven
+                | Raven
+                span :
+            p.msg.msg-en
+                | Snake, take this security card.  It wil open that door.
+            p.msg.msg-cn
+                | NULL
+        .dialog.dialog-snake
+            em.name.name-snake
+                | Snake
+                span :
+            p.msg.msg-en
+                | Why?
+            p.msg.msg-cn
+                | NULL
+        .dialog
+            em.name.name-raven
+                | Raven
+                span :
+            p.msg.msg-en
+                | You are a snake which was not created by Nature.  You and the Boss... you are from another world... a world that I do not wish to know.  Go and do battle with him.  I will be watching from above.  First, I'll give you a hint... The man who you saw die before your eyes... (Scenes of the DARPA Chief dying are shown.)
+            p.msg.msg-cn
+                | NULL
+        .dialog
+            em.name.name-raven
+                | Raven
+                span :
+            p.msg.msg-en
+                | That was not the DARPA Chief.  It was Decot Octopus.  A member of FOX-HOUND.  He was a master of disguise.  He copied his subjects down to the blood.  So he drained the Chief's blood and took it into himself.  But he wasn't able to decieve the Angel of Death.
+            p.msg.msg-cn
+                | NULL
+        .dialog.dialog-snake
+            em.name.name-snake
+                | Snake
+                span :
+            p.msg.msg-en
+                | The Angel of Death?  But why go to so much trouble?  Why impersonate the Chief?
+            p.msg.msg-cn
+                | NULL
+        .dialog
+            em.name.name-raven
+                | Raven
+                span :
+            p.msg.msg-en
+                | That is the end of my hint.  You must solve the rest of the riddle yourself. (Ravens take off from all around and gather around Raven as Snake walks away.)
+            p.msg.msg-cn
+                | NULL
+        .dialog
+            em.name.name-raven
+                | Raven
+                span :
+            p.msg.msg-en
+                | In the natural world, there is no such thing as a boundless slaughter.  There is always an end to it.  But you are different. (The raven's begin to eat away at Raven while he is still alive.)
+            p.msg.msg-cn
+                | NULL
+        .dialog.dialog-snake
+            em.name.name-snake
+                | Snake
+                span :
+            p.msg.msg-en
+                | What are you trying to say?
+            p.msg.msg-cn
+                | NULL
+        .dialog
+            em.name.name-raven
+                | Raven
+                span :
+            p.msg.msg-en
+                | The path you walk on has no end.  Each step you take is paved with the corpses of your enemies...  Their souls will haunt you forever... you shall have no peace... Hear me, Snake!  My spirit will be watching you! (Snake turns around and all that is left of Vulcan Raven is his Vulcan Cannon.)

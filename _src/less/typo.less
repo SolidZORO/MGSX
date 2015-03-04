@@ -1,0 +1,321 @@
+.typo {
+    overflow: hidden;
+    margin-bottom: 2em;
+    font-size: 100%;
+    color: #333;
+
+    em {
+        font-style: italic;
+        font-weight: 400;
+    }
+    p {
+        margin: 0;
+        padding: 0;
+        margin-bottom: 20px;
+        line-height: 1.8;
+
+        @media (max-width: @screen-sm) {
+            line-height: 1.6;
+        }
+
+        &.scene {
+            border: 1px dashed #ddd;
+            padding: 10px;
+            background: #fafad2;
+
+            span.scene_title {
+                background: #ffa07a;
+                padding: 2px 5px;
+                margin-right: 15px;
+                border-radius: 5px;
+                color: #fff;
+            }
+        }
+    }
+
+    strong {
+        font-weight: bold;
+    }
+
+    ul, ol {
+        margin: 20px 0;
+        padding-left: 5%;
+
+        li {
+            line-height: 2;
+
+            p {
+                margin-bottom: 10px;
+            }
+        }
+    }
+
+    ul {
+        li {
+            list-style-type: disc;
+        }
+    }
+
+    ol {
+        li {
+            list-style-type: decimal;
+        }
+    }
+
+
+    hr {
+        margin-top: 20px;
+        margin-bottom: 20px;
+        border: 0;
+        border-top: 1px solid #eeeeee;
+    }
+
+    h1, h2, h3, h4, h5, h6,
+    .h1, .h2, .h3, .h4, .h5, .h6 {
+        font-family: inherit;
+        font-weight: 700;
+        line-height: 1.4;
+    }
+
+
+    h1 {
+        margin: 15px 0 5px 0;
+        font-size: 1.6em;
+    }
+
+    h2 {
+        font-size: 1.4em;
+        margin: 40px 10px 20px 0;
+        padding-left: 9px;
+        border-left: 6px solid #ff7e79;
+    }
+
+    h3 {
+        font-size: 1.2em;
+        margin: 10px 0 5px 0;
+        padding-top: 10px;
+    }
+
+    h4 {
+        font-size: 1.1em;
+        margin: 10px 0 5px 0;
+        padding-top: 10px;
+    }
+
+    blockquote {
+        font-size: 1em;
+        font-style: normal;
+        padding: 30px 60px;
+        margin: 0 0px 15px 0px;
+        position: relative;
+        line-height: 1.8;
+        text-indent: 0px;
+        border: none;
+        color: #888;
+
+        p {
+            color: #575757;
+        }
+
+        &:before, &:after {
+            font-family: Arial, serif;
+            font-size: 5em;
+            line-height: 1em;
+            font-weight: bold;
+            color: #ddd;
+            position: absolute;
+        }
+
+        &:before {
+            content: "“";
+            left: 12px;
+            top: 0;
+            color: #E0E0E0;
+        }
+
+        &:after {
+            content: "”";
+            right: 12px;
+            bottom: -31px;
+            color: #E0E0E0;
+        }
+
+        & > p {
+            margin-bottom: 0;
+            padding-bottom: 0;
+        }
+    }
+
+    table {
+        margin: 1em 0;
+        background-color: #f9f9f9;
+        border: 1px #aaa solid;
+        border-collapse: collapse;
+        color: black;
+        th, tr, td {
+            padding: 0.3em;
+        }
+        th {
+            background-color: #f2f2f2;
+            text-align: center;
+            border: 1px #aaa solid;
+        }
+        tr {
+            display: table-row;
+            vertical-align: inherit;
+            border-color: inherit;
+        }
+        td {
+            border: 1px #aaa solid;
+        }
+    }
+
+    a {
+        background: transparent;
+        color: lighten(@brand-primary, 1%);
+        text-decoration: none;
+        margin: 0;
+        padding: 0;
+
+        &:hover {
+            color: lighten(@brand-primary, 10%);
+            text-decoration: underline;
+
+        }
+    }
+
+
+    code {
+        padding: 2px 4px;
+        color: #302e2f;
+        background-color: #ffebeb;
+        white-space: nowrap;
+        border-radius: 3px;
+        font-family: Menlo, Monaco, Consolas, "Courier New", monospace;
+        ol {
+            color: #CCC;
+            span {
+                color: #302e2f;
+            }
+        }
+    }
+
+    pre {
+        white-space: pre-wrap;
+        display: block;
+        background-color: #ffebeb;
+        padding: 2px 4px;
+        //border-radius: 3px;
+        border: none;
+        code {
+            border-radius: 0px;
+            white-space: pre;
+            padding: 0;
+        }
+    }
+
+    img {
+        margin-bottom: 15px;
+        height: auto;
+        max-width: 100%;
+    }
+
+
+
+
+    // 文章橫排grid框架 S
+    @grid6_width: 48%;
+    @grid4_width: 31.3%;
+    @grid3_width: 23%;
+
+    // ROW START 開始 以下是放格顯示圖片
+    .row {
+        position: relative;
+        width: 100%;
+        padding: 1%;
+        margin: 5px 0;
+        *zoom: 1;
+        clear: both;
+        display: table;
+        margin-bottom: 1.2em;
+        background: #f8f8f8;
+        border: solid 1px #f3f3f3;
+        border-radius: 2px;
+
+
+        // 手機版grid都統一。上圖下文 100%寬。
+        .grid3, .grid4, .grid6 {
+            width: 100%;
+            text-align: center;
+            margin-bottom: 0.5em;
+            float: left;
+            margin: 1%;
+            img {
+                max-width: 100%;
+                box-shadow: 1px 1px 3px rgba(88, 88, 88, 0.43);
+                margin: 0;
+                height: auto;
+                // display: block;
+            }
+        }
+
+        // 電腦版，2圖
+        .grid6 {
+            width: @grid6_width;
+            img {
+                *width: @grid6_width;
+            }
+        }
+
+        // 電腦版，3圖
+        .grid4 {
+            width: @grid4_width;
+            img {
+                *width: @grid4_width;
+            }
+            font-size: 0.85em;
+        }
+
+        // 電腦版，4圖
+        .grid3 {
+            width: @grid3_width;
+            img {
+                *width: @grid4_width;
+            }
+        }
+
+        .imagelightbox {
+            img {
+                margin-bottom: 10px;
+            }
+        }
+
+
+    }
+
+
+
+    // 兼容旧文章
+    .grid2 {
+        list-style-type: none;
+        overflow: hidden;
+        clear: both;
+    }
+
+    // 圖文
+    .row-img-text {
+        width: 100%;
+        padding: 0;
+        background: none;
+        border: none;
+
+        .grid6 {
+            width: 100%;
+            padding: 0;
+            text-align: left !important;
+        }
+    }
+    // 文章橫排grid框架 E
+
+
+}

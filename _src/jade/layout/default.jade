@@ -1,0 +1,23 @@
+doctype html
+html(lang='zh')
+    block variable
+    head
+        meta(charset='utf-8')
+        block title
+            title MGS text
+        meta(name='description', content='MGS')
+        meta(http-equiv='X-UA-Compatible', content='IE=edge')
+        meta(name='viewport', content='width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no')
+        meta(name='renderer', content='webkit')
+        block style
+            link(rel='stylesheet', href= './assets/css/style.css')
+        meta(name='apple-mobile-web-app-title', content='MGS')
+        //- link(rel="apple-touch-icon-precomposed", href= HOME_PATH + 'themes/ryu/assets/img/favicon/favicon_144.png' size="144x144")
+        //- link(rel="shortcut icon" href= HOME_PATH + 'themes/ryu/assets/img/favicon/favicon.ico')
+    body(class= 'katana')
+        //- include ../include/header.jade
+        .warp
+            include ../include/nav.jade
+            block container
+            include ../include/nav.jade
+            include ../include/footer.jade

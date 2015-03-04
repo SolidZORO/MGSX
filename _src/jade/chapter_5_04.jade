@@ -1,0 +1,4093 @@
+extends ./layout/default.jade
+
+block variable
+    - var chapter_num = "5.4"
+    - var chapter_title_en = "Life and Death"
+    - var chapter_title_cn = "生死攸關"
+
+
+block title
+    title MGS #{chapter_num} - #{chapter_title_en} (#{chapter_title_cn})
+
+block container
+    h2.title.title-en
+        span.title-num #{chapter_num}
+        strong.title-en
+            | #{chapter_title_en}
+        strong.title-cn
+            | #{chapter_title_cn}
+
+    .section
+        .dialog
+            em.name.name-meryl
+                | Meryl
+                span :
+            p.msg.msg-en
+                | That's the second time I've been able to sneak up on the legendary Solid Snake. (Meryl has her rifle pressed against Snake's back, unmenacingly.  Snake turns around to look at her.)
+            p.msg.msg-cn
+                | NULL
+        .dialog.dialog-snake
+            em.name.name-snake
+                | Snake
+                span :
+            p.msg.msg-en
+                | You're Meryl?  There's no way you could pass for a man for long.
+            p.msg.msg-cn
+                | NULL
+        .dialog
+            em.name.name-meryl
+                | Meryl
+                span :
+            p.msg.msg-en
+                | What do you mean?  Hey!  Men aren't allowed in here.
+            p.msg.msg-cn
+                | NULL
+        .dialog.dialog-snake
+            em.name.name-snake
+                | Snake
+                span :
+            p.msg.msg-en
+                | I had no idea you were so feminine.
+            p.msg.msg-cn
+                | NULL
+        .dialog
+            em.name.name-meryl
+                | Meryl
+                span :
+            p.msg.msg-en
+                | This is no time to try and hit on me, Snake.  Besides, it's a waste of time.  When I joined up they gave me psychotherapy to destroy my interest in men.
+            p.msg.msg-cn
+                | NULL
+        .dialog.dialog-snake
+            em.name.name-snake
+                | Snake
+                span :
+            p.msg.msg-en
+                | Same smart mouth.  You're Meryl all right.  Are you hurt?
+            p.msg.msg-cn
+                | NULL
+        .dialog
+            em.name.name-meryl
+                | Meryl
+                span :
+            p.msg.msg-en
+                | Not yet.  After all, I was disguised as a Genome Soldier.
+            p.msg.msg-cn
+                | NULL
+        .dialog.dialog-snake
+            em.name.name-snake
+                | Snake
+                span :
+            p.msg.msg-en
+                | So why'd you change?  You'd be better off dressed like one of them.
+            p.msg.msg-cn
+                | NULL
+        .dialog
+            em.name.name-meryl
+                | Meryl
+                span :
+            p.msg.msg-en
+                | I got tired of disguising myself.  The truth is... the uniform smelled like blood. (Snake sees Meryl's tattoo on her left arm.)
+            p.msg.msg-cn
+                | NULL
+        .dialog.dialog-snake
+            em.name.name-snake
+                | Snake
+                span :
+            p.msg.msg-en
+                | What's that mark?
+            p.msg.msg-cn
+                | NULL
+        .dialog
+            em.name.name-meryl
+                | Meryl
+                span :
+            p.msg.msg-en
+                | Huh?  Oh, this?  It's a paint tattoo.  It's not real.  I was a fan of FOX-HOUND way back.  When guys like you and my uncle were in it.  None of that gene therapy like there is today.  You guys were real heroes.
+            p.msg.msg-cn
+                | NULL
+        .dialog.dialog-snake
+            em.name.name-snake
+                | Snake
+                span :
+            p.msg.msg-en
+                | There are no heroes in war.  All the heroes I know are either dead... or in prison.  One or the other.
+            p.msg.msg-cn
+                | NULL
+        .dialog
+            em.name.name-meryl
+                | Meryl
+                span :
+            p.msg.msg-en
+                | But Snake.  You're a hero.  Aren't you?
+            p.msg.msg-cn
+                | NULL
+        .dialog.dialog-snake
+            em.name.name-snake
+                | Snake
+                span :
+            p.msg.msg-en
+                | I'm just a man who's good at what he does.  Killing.  There's no winning or losing for a mercenary.  The only winners in war are the people.
+            p.msg.msg-cn
+                | NULL
+        .dialog
+            em.name.name-meryl
+                | Meryl
+                span :
+            p.msg.msg-en
+                | That's right.  And you fight for the people.
+            p.msg.msg-cn
+                | NULL
+        .dialog.dialog-snake
+            em.name.name-snake
+                | Snake
+                span :
+            p.msg.msg-en
+                | I've never fought for anyone but myself. I've got no purpose in life.  No ultimate goal.
+            p.msg.msg-cn
+                | NULL
+        .dialog
+            em.name.name-meryl
+                | Meryl
+                span :
+            p.msg.msg-en
+                | Come on.
+            p.msg.msg-cn
+                | NULL
+        .dialog.dialog-snake
+            em.name.name-snake
+                | Snake
+                span :
+            p.msg.msg-en
+                | It's only when I'm cheating death on the battlefield.  The only time I feel truly alive.
+            p.msg.msg-cn
+                | NULL
+        .dialog
+            em.name.name-meryl
+                | Meryl
+                span :
+            p.msg.msg-en
+                | Seeing other people die makes you feel alive, huh?  You love war and don't want it to stop... Is it the same with all great soldiers throughout history?
+            p.msg.msg-cn
+                | NULL
+        .dialog.dialog-snake
+            em.name.name-snake
+                | Snake
+                span :
+            p.msg.msg-en
+                | Why didn't you contact me?
+            p.msg.msg-cn
+                | NULL
+        .dialog
+            em.name.name-meryl
+                | Meryl
+                span :
+            p.msg.msg-en
+                | My Codec was broken.
+            p.msg.msg-cn
+                | NULL
+        .dialog.dialog-snake
+            em.name.name-snake
+                | Snake
+                span :
+            p.msg.msg-en
+                | Is that all?
+            p.msg.msg-cn
+                | NULL
+        .dialog
+            em.name.name-meryl
+                | Meryl
+                span :
+            p.msg.msg-en
+                | Shouldn't you just be happy that we met up like this!?  How did you recognize me in disguise?
+            p.msg.msg-cn
+                | NULL
+        .dialog.dialog-snake
+            em.name.name-snake
+                | Snake
+                span :
+            p.msg.msg-en
+                | I never forget a lady.
+            p.msg.msg-cn
+                | NULL
+        .dialog
+            em.name.name-meryl
+                | Meryl
+                span :
+            p.msg.msg-en
+                | So there's something you like about me, huh?
+            p.msg.msg-cn
+                | NULL
+        .dialog.dialog-snake
+            em.name.name-snake
+                | Snake
+                span :
+            p.msg.msg-en
+                | Yeah, you've got a great butt.
+            p.msg.msg-cn
+                | NULL
+        .dialog
+            em.name.name-meryl
+                | Meryl
+                span :
+            p.msg.msg-en
+                | Oh, I see.  First it's my eyes, now it's my butt.  What's next?
+            p.msg.msg-cn
+                | NULL
+        .dialog.dialog-snake
+            em.name.name-snake
+                | Snake
+                span :
+            p.msg.msg-en
+                | On the battlefield you never think about what's next.
+            p.msg.msg-cn
+                | NULL
+        .dialog
+            em.name.name-meryl
+                | Meryl
+                span :
+            p.msg.msg-en
+                | So Snake... how are the negotiations doing?
+            p.msg.msg-cn
+                | NULL
+        .dialog.dialog-snake
+            em.name.name-snake
+                | Snake
+                span :
+            p.msg.msg-en
+                | No progress.
+            p.msg.msg-cn
+                | NULL
+        .dialog
+            em.name.name-meryl
+                | Meryl
+                span :
+            p.msg.msg-en
+                | So, it's all up to you, huh?
+            p.msg.msg-cn
+                | NULL
+        .dialog.dialog-snake
+            em.name.name-snake
+                | Snake
+                span :
+            p.msg.msg-en
+                | Somebody's got to prevent them from launching a nuclear missile.
+            p.msg.msg-cn
+                | NULL
+        .dialog
+            em.name.name-meryl
+                | Meryl
+                span :
+            p.msg.msg-en
+                | There are two ways.  Either we destroy Metal Gear, or...
+            p.msg.msg-cn
+                | NULL
+        .dialog.dialog-snake
+            em.name.name-snake
+                | Snake
+                span :
+            p.msg.msg-en
+                | ...we override the detonation code.  You got the card keys from Baker?
+            p.msg.msg-cn
+                | NULL
+        .dialog
+            em.name.name-meryl
+                | Meryl
+                span :
+            p.msg.msg-en
+                | Card keys? (Meryl reaches into her shirt and pulls out a card key.)
+            p.msg.msg-cn
+                | NULL
+        .dialog
+            em.name.name-meryl
+                | Meryl
+                span :
+            p.msg.msg-en
+                | You mean this?
+            p.msg.msg-cn
+                | NULL
+        .dialog.dialog-snake
+            em.name.name-snake
+                | Snake
+                span :
+            p.msg.msg-en
+                | Where are the others?  There should be three keys.
+            p.msg.msg-cn
+                | NULL
+        .dialog
+            em.name.name-meryl
+                | Meryl
+                span :
+            p.msg.msg-en
+                | This is all I've got.
+            p.msg.msg-cn
+                | NULL
+        .dialog.dialog-snake
+            em.name.name-snake
+                | Snake
+                span :
+            p.msg.msg-en
+                | Where could the other two be?
+            p.msg.msg-cn
+                | NULL
+        .dialog
+            em.name.name-meryl
+                | Meryl
+                span :
+            p.msg.msg-en
+                | I have no idea, but they must be somewhere.  If we can't find them we'll have no choice but to destroy Metal Gear.
+            p.msg.msg-cn
+                | NULL
+        .dialog.dialog-snake
+            em.name.name-snake
+                | Snake
+                span :
+            p.msg.msg-en
+                | Metal Gear is in an underground maintenance base to the north.
+            p.msg.msg-cn
+                | NULL
+        .dialog
+            em.name.name-meryl
+                | Meryl
+                span :
+            p.msg.msg-en
+                | Take me too.  I know this place better than you do.
+            p.msg.msg-cn
+                | NULL
+        .dialog.dialog-snake
+            em.name.name-snake
+                | Snake
+                span :
+            p.msg.msg-en
+                | You'll just slow me down.  You don't have enough battle experience.
+            p.msg.msg-cn
+                | NULL
+        .dialog
+            em.name.name-meryl
+                | Meryl
+                span :
+            p.msg.msg-en
+                | I won't slow you down.  I promise.
+            p.msg.msg-cn
+                | NULL
+        .dialog.dialog-snake
+            em.name.name-snake
+                | Snake
+                span :
+            p.msg.msg-en
+                | And what if you do?
+            p.msg.msg-cn
+                | NULL
+        .dialog
+            em.name.name-meryl
+                | Meryl
+                span :
+            p.msg.msg-en
+                | Then you can shoot me.
+            p.msg.msg-cn
+                | NULL
+        .dialog.dialog-snake
+            em.name.name-snake
+                | Snake
+                span :
+            p.msg.msg-en
+                | I don't like to waste bullets.
+            p.msg.msg-cn
+                | NULL
+        .dialog
+            em.name.name-meryl
+                | Meryl
+                span :
+            p.msg.msg-en
+                | Got it.  I'll be careful.  Y'know... I don't use makeup the way other women do... I hardly ever look at myself in the mirror. I've always despised that kind of woman.  I always dreamed of becoming a soldier.  But I was wrong.  It wasn't really my dream.  My father... he was killed in action when I was younger.
+            p.msg.msg-cn
+                | NULL
+        .dialog.dialog-snake
+            em.name.name-snake
+                | Snake
+                span :
+            p.msg.msg-en
+                | You wanted to follow in your father's footsteps?
+            p.msg.msg-cn
+                | NULL
+        .dialog
+            em.name.name-meryl
+                | Meryl
+                span :
+            p.msg.msg-en
+                | Not really.  I thought that if I became a soldier I could understand him better.
+            p.msg.msg-cn
+                | NULL
+        .dialog.dialog-snake
+            em.name.name-snake
+                | Snake
+                span :
+            p.msg.msg-en
+                | So are you a soldier yet?
+            p.msg.msg-cn
+                | NULL
+        .dialog
+            em.name.name-meryl
+                | Meryl
+                span :
+            p.msg.msg-en
+                | I thought I was until today.  But... now I understand.  The truth is I was just afraid of looking at myself.  Afraid of having to make my own decisions in life.  But I'm not going to lie to myself any more.  It's time I took a long, hard look at myself... I want to know who I am, what I'm capable of.  I want to know why I've lived the way I've lived until now.  I want to know. (Snake reaches for his SOCOM and loads a clip into it.)
+            p.msg.msg-cn
+                | NULL
+        .dialog.dialog-snake
+            em.name.name-snake
+                | Snake
+                span :
+            p.msg.msg-en
+                | Take a good look.  You won't get anothert chance for a while. You should wash your face while you're at it.  This isn't a training exercise.  Our lives are riding on this.  There are no heroes or heroins.  If you lose, you're worm food.
+            p.msg.msg-cn
+                | NULL
+        .dialog
+            em.name.name-meryl
+                | Meryl
+                span :
+            p.msg.msg-en
+                | Yeah. (Snake spots Meryl's FAMAS on the ground.)
+            p.msg.msg-cn
+                | NULL
+        .dialog.dialog-snake
+            em.name.name-snake
+                | Snake
+                span :
+            p.msg.msg-en
+                | Is that FAMAS functional?
+            p.msg.msg-cn
+                | NULL
+        .dialog
+            em.name.name-meryl
+                | Meryl
+                span :
+            p.msg.msg-en
+                | Unfortunately it's out of ammo.
+            p.msg.msg-cn
+                | NULL
+        .dialog.dialog-snake
+            em.name.name-snake
+                | Snake
+                span :
+            p.msg.msg-en
+                | Where'd ya' get that Desert Eagle?
+            p.msg.msg-cn
+                | NULL
+        .dialog
+            em.name.name-meryl
+                | Meryl
+                span :
+            p.msg.msg-en
+                | I found it in the armory.  It's a .50 caliber Action Express. There was a SOCOM pistol too, but I chose this.
+            p.msg.msg-cn
+                | NULL
+        .dialog.dialog-snake
+            em.name.name-snake
+                | Snake
+                span :
+            p.msg.msg-en
+                | Hmmm.  So I got a leftover, huh.  Isn't that gun a little big for a girl.
+            p.msg.msg-cn
+                | NULL
+        .dialog
+            em.name.name-meryl
+                | Meryl
+                span :
+            p.msg.msg-en
+                | Don't worry, I can handle it. (Snake holds his SOCOM out to Meryl.)
+            p.msg.msg-cn
+                | NULL
+        .dialog.dialog-snake
+            em.name.name-snake
+                | Snake
+                span :
+            p.msg.msg-en
+                | C'mon.  Use my .45.
+            p.msg.msg-cn
+                | NULL
+        .dialog
+            em.name.name-meryl
+                | Meryl
+                span :
+            p.msg.msg-en
+                | Listen, I've used a gun like this since I was 8 years old.  I'm more comforatble with it than I am with a bra. (Meryl pulls a clip of ammo out of her shirt and reloads her pistol.)
+            p.msg.msg-cn
+                | NULL
+        .dialog
+            em.name.name-meryl
+                | Meryl
+                span :
+            p.msg.msg-en
+                | If we're going to go to the north, we'll have to go through the Commander's Room on this floor.  The overland route is blocked by glaciers.  The door to the commander's room is security level five.  This card will open it. (Meryl pulls out a card.)
+            p.msg.msg-cn
+                | NULL
+        .dialog
+            em.name.name-meryl
+                | Meryl
+                span :
+            p.msg.msg-en
+                | It was inside the pocket of the uniform I was wearing. (She hands the card to Snake.)
+            p.msg.msg-cn
+                | NULL
+        .dialog.dialog-snake
+            em.name.name-snake
+                | Snake
+                span :
+            p.msg.msg-en
+                | Looks like he must have been guarding someplace important.
+            p.msg.msg-cn
+                | NULL
+        .dialog
+            em.name.name-meryl
+                | Meryl
+                span :
+            p.msg.msg-en
+                | Okay, let's go.  I know this place better than you.  I'll be point man.  Follow me. (Meryl exits the bathroom, Snake follows her.)
+            p.msg.msg-cn
+                | NULL
+        .dialog
+            em.name.name-meryl
+                | Meryl
+                span :
+            p.msg.msg-en
+                | That's strange.  There's no guard.
+            p.msg.msg-cn
+                | NULL
+        .dialog.dialog-snake
+            em.name.name-snake
+                | Snake
+                span :
+            p.msg.msg-en
+                | What happened to the music?
+            p.msg.msg-cn
+                | NULL
+        .dialog
+            em.name.name-meryl
+                | Meryl
+                span :
+            p.msg.msg-en
+                | I'll keep a look out.  Make sure you're ready, okay? (Snake and Meryl reach the entrance to the commander's room.)
+            p.msg.msg-cn
+                | NULL
+        .dialog
+            em.name.name-meryl
+                | Meryl
+                span :
+            p.msg.msg-en
+                | My head! ...Ooh.  It hurts! (Meryl kneels on the floor clutching her head.)
+            p.msg.msg-cn
+                | NULL
+        .dialog.dialog-snake
+            em.name.name-snake
+                | Snake
+                span :
+            p.msg.msg-en
+                | What's wrong?
+            p.msg.msg-cn
+                | NULL
+        .dialog
+            em.name.name-meryl
+                | Meryl
+                span :
+            p.msg.msg-en
+                | Don't come here, Snake! (We see views of the commanders room, as if somebody is waiting for them.)
+            p.msg.msg-cn
+                | NULL
+        .dialog.dialog-snake
+            em.name.name-snake
+                | Snake
+                span :
+            p.msg.msg-en
+                | Are you okay?  What happened? (Meryl stands up.  When she speaks her voice sounds different.)
+            p.msg.msg-cn
+                | NULL
+        .dialog
+            em.name.name-meryl
+                | Meryl
+                span :
+            p.msg.msg-en
+                | I'm fine.  Let's go. (Meryl walks to the door of the Commander's Room.)
+            p.msg.msg-cn
+                | NULL
+        .dialog
+            em.name.name-meryl
+                | Meryl
+                span :
+            p.msg.msg-en
+                | C'mon Mr. FOX-HOUND.  The commander is waiting. (They go into the Commander's Room.) (Meryl begins to jerk around.)
+            p.msg.msg-cn
+                | NULL
+        .dialog
+            em.name.name-meryl
+                | Meryl
+                span :
+            p.msg.msg-en
+                | Ah! (She points her handgun at Snake.  She begins to walk towards him, slowly. When she speaks her voice sounds strange.)
+            p.msg.msg-cn
+                | NULL
+        .dialog
+            em.name.name-meryl
+                | Meryl
+                span :
+            p.msg.msg-en
+                | Snake... do you... like me?
+            p.msg.msg-cn
+                | NULL
+        .dialog.dialog-snake
+            em.name.name-snake
+                | Snake
+                span :
+            p.msg.msg-en
+                | What the!?
+            p.msg.msg-cn
+                | NULL
+        .dialog
+            em.name.name-meryl
+                | Meryl
+                span :
+            p.msg.msg-en
+                | Do you like me?  Hold me, Snake.
+            p.msg.msg-cn
+                | NULL
+        .dialog.dialog-snake
+            em.name.name-snake
+                | Snake
+                span :
+            p.msg.msg-en
+                | What's wrong?
+            p.msg.msg-cn
+                | NULL
+        .dialog
+            em.name.name-meryl
+                | Meryl
+                span :
+            p.msg.msg-en
+                | Hurry... hurry!  Make love to me!!  Snake, I want you!! (We now see Psycho Mantis behind Meryl.  He is controlling her.)
+            p.msg.msg-cn
+                | NULL
+        .dialog.dialog-snake
+            em.name.name-snake
+                | Snake
+                span :
+            p.msg.msg-en
+                | Who's that!?
+            p.msg.msg-cn
+                | NULL
+        .dialog
+            em.name.name-mantis
+                | Mantis
+                span :
+            p.msg.msg-en
+                | Huh?  You don't like girls? (Campbell calls on the Codec.)
+            p.msg.msg-cn
+                | NULL
+        .dialog
+            em.name.name-campbell
+                | Campbell
+                span :
+            p.msg.msg-en
+                | Snake, Meryl's not herself.  Don't use your weapon.
+            p.msg.msg-cn
+                | NULL
+        .dialog
+            em.name.name-naomi
+                | Naomi
+                span :
+            p.msg.msg-en
+                | It's psycho Mantis.  He's controlling Meryl.  That tune is his mind control music.
+            p.msg.msg-cn
+                | NULL
+        .dialog
+            em.name.name-campbell
+                | Campbell
+                span :
+            p.msg.msg-en
+                | Don't use your weapon.  Try to knock her out. (Snake knocks her out easily.)
+            p.msg.msg-cn
+                | NULL
+        .dialog
+            em.name.name-mantis
+                | Mantis
+                span :
+            p.msg.msg-en
+                | Useless woman! (Snake takes not of Mantis' optical camouflage.)
+            p.msg.msg-cn
+                | NULL
+        .dialog.dialog-snake
+            em.name.name-snake
+                | Snake
+                span :
+            p.msg.msg-en
+                | Optic camouflage, huh?  I hope that's not your only trick.
+            p.msg.msg-cn
+                | NULL
+        .dialog
+            em.name.name-mantis
+                | Mantis
+                span :
+            p.msg.msg-en
+                | You!  You doubt my power!? (Snake ignores Mantis and checks on Meryl, to make sure she isn't hurt.)
+            p.msg.msg-cn
+                | NULL
+        .dialog
+            em.name.name-mantis
+                | Mantis
+                span :
+            p.msg.msg-en
+                | Now, I will show you why I am the most powerful practitioner of psychokinesis and telepathy in the world. (Mantis takes off his camouflage and we can see that he is floating in the air without any outside supports.  Snake is a bit surprised by this, he steps backwards.)
+            p.msg.msg-cn
+                | NULL
+        .dialog
+            em.name.name-mantis
+                | Mantis
+                span :
+            p.msg.msg-en
+                | No... there's no need for words, Snake.  I am Psycho Mantis. That's right... this is no trick.  It is true power. (Snake whips out his SOCOM and points it at Mantis.)
+            p.msg.msg-cn
+                | NULL
+        .dialog
+            em.name.name-mantis
+                | Mantis
+                span :
+            p.msg.msg-en
+                | It's useless.  I told you... I can read your every thought. Now... let me read your mind.  No... perhaps I should say your past. (At this point there are several things Mantis can say.  He will put together a combination of these to tell Snake somthing.)
+            p.msg.msg-cn
+                | NULL
+        .dialog
+            em.name.name-mantis
+                | Mantis
+                span :
+            p.msg.msg-en
+                | Still don't believe me?  Now I'll read more deeply into your soul.
+            p.msg.msg-cn
+                | NULL
+        p
+            | ------------------------------------------------------------------------------ * You're a careless man, aren't you? ------------------------------------------------------------------------------ * And you're a poor warrior as well. ------------------------------------------------------------------------------ * And the same goes with traps. ------------------------------------------------------------------------------ * However you are skillful at eluding traps. ------------------------------------------------------------------------------ * However you are a skilled warrior. ------------------------------------------------------------------------------ * You like brute force... ------------------------------------------------------------------------------ * But you are careless around traps. ------------------------------------------------------------------------------ * You are extremely cautious around traps. ------------------------------------------------------------------------------ * You are a very methodical man. ------------------------------------------------------------------------------ * The type that always kicks his tires before he leaves. ------------------------------------------------------------------------------ * And yet you are rather ineffective in battle. ------------------------------------------------------------------------------ * And you need to beware of traps as well. ------------------------------------------------------------------------------ * It seems that you are careful with traps. ------------------------------------------------------------------------------ * You are a highly skilled warrior, ------------------------------------------------------------------------------ * well suited to this stealth mission. ------------------------------------------------------------------------------ * However, traps are your weak point. ------------------------------------------------------------------------------ * You are extremely careful of traps. ------------------------------------------------------------------------------ * You are either very cautious, ------------------------------------------------------------------------------ * or you are a coward... ------------------------------------------------------------------------------ * Still don't believe me? ------------------------------------------------------------------------------ * Now I'll read more deeply into your soul. ------------------------------------------------------------------------------ * Ah...I can see into your mind... ------------------------------------------------------------------------------ * So you like SUIKODEN? ------------------------------------------------------------------------------ * So you like AZURE DREAMS? ------------------------------------------------------------------------------ * You like fighting games, don't you? ------------------------------------------------------------------------------ * So you like adventure games? ------------------------------------------------------------------------------ * You enjoy role-playing games. ------------------------------------------------------------------------------ * You like action games! ------------------------------------------------------------------------------ * You like to play sports games! ------------------------------------------------------------------------------ * You like arcade games. ------------------------------------------------------------------------------ * I see that you enjoy Konami games. ------------------------------------------------------------------------------ * So you like VANDAL HEARTS. ------------------------------------------------------------------------------ * I can read you like an open book! ------------------------------------------------------------------------------ * Hmmm. You have saved often. ------------------------------------------------------------------------------ * You are a prudent person. ------------------------------------------------------------------------------ * Hmmm. You have not saved often. ------------------------------------------------------------------------------ * You are somewhat reckless. ------------------------------------------------------------------------------ * Hmmm...Your memory is completely clean. ------------------------------------------------------------------------------ * And you are neglecting to save this game as well. ------------------------------------------------------------------------------ * You will regret it. ------------------------------------------------------------------------------ (Mantis tries something else.)
+        .dialog
+            em.name.name-mantis
+                | Mantis
+                span :
+            p.msg.msg-en
+                | You still don't believe me?  I will show you my psychokinetic power.  Put your controller on the floor.  Put it down as flat as you can... that's good.  Now I will move your controller by the power of my will alone!! (Mantis now moves the controller by activating the vibration function.)
+            p.msg.msg-cn
+                | NULL
+        .dialog
+            em.name.name-mantis
+                | Mantis
+                span :
+            p.msg.msg-en
+                | What do you think now!?  Can you feel my power now!?  The demonstration is over!! (Snake battles Mantis.  Mantis begins to control Meryl again.)
+            p.msg.msg-cn
+                | NULL
+        .dialog
+            em.name.name-mantis
+                | Mantis
+                span :
+            p.msg.msg-en
+                | You are powerful indeed, but I know your weak point!
+            p.msg.msg-cn
+                | NULL
+        .dialog.dialog-snake
+            em.name.name-snake
+                | Snake
+                span :
+            p.msg.msg-en
+                | Meryl.
+            p.msg.msg-cn
+                | NULL
+        .dialog
+            em.name.name-mantis
+                | Mantis
+                span :
+            p.msg.msg-en
+                | Stand right where he can see you... and blow your brains out!!!
+            p.msg.msg-cn
+                | NULL
+        .dialog
+            em.name.name-meryl
+                | Meryl
+                span :
+            p.msg.msg-en
+                | Aaah!!
+            p.msg.msg-cn
+                | NULL
+        .dialog.dialog-snake
+            em.name.name-snake
+                | Snake
+                span :
+            p.msg.msg-en
+                | Stop! Meryl!! (Snake must once again knock Meryl out.  Mantis is immensly frustrated when he succedes.)
+            p.msg.msg-cn
+                | NULL
+        .dialog
+            em.name.name-mantis
+                | Mantis
+                span :
+            p.msg.msg-en
+                | Why!?
+            p.msg.msg-cn
+                | NULL
+        .dialog
+            em.name.name-mantis
+                | Mantis
+                span :
+            p.msg.msg-en
+                | Yes, stand right there and blow your brains out. (After Mantis is defeated, Snake calls Campbell on the Codec.)
+            p.msg.msg-cn
+                | NULL
+        .dialog.dialog-snake
+            em.name.name-snake
+                | Snake
+                span :
+            p.msg.msg-en
+                | Colonel, your niece is going to be okay.
+            p.msg.msg-cn
+                | NULL
+        .dialog
+            em.name.name-campbell
+                | Campbell
+                span :
+            p.msg.msg-en
+                | Thanks, Snake. I owe you one.
+            p.msg.msg-cn
+                | NULL
+        .dialog.dialog-snake
+            em.name.name-snake
+                | Snake
+                span :
+            p.msg.msg-en
+                | Now that Mantis is beaten, Meryl's brainwashing is going to wear off, right Naomi?
+            p.msg.msg-cn
+                | NULL
+        .dialog
+            em.name.name-naomi
+                | Naomi
+                span :
+            p.msg.msg-en
+                | Yes.  Why did you go so far out of your way to save her?  For Campbell's sake... or... maybe it's because you like her?
+            p.msg.msg-cn
+                | NULL
+        .dialog.dialog-snake
+            em.name.name-snake
+                | Snake
+                span :
+            p.msg.msg-en
+                | I don't want to see any woman die right in front of me.
+            p.msg.msg-cn
+                | NULL
+        .dialog
+            em.name.name-naomi
+                | Naomi
+                span :
+            p.msg.msg-en
+                | Oh really?  Since when did anybody's death bother you so much?
+            p.msg.msg-cn
+                | NULL
+        .dialog
+            em.name.name-campbell
+                | Campbell
+                span :
+            p.msg.msg-en
+                | Naomi!  It's true that Snake has killed a lot of people, that doesn't mean he doesn't have a heart.
+            p.msg.msg-cn
+                | NULL
+        .dialog.dialog-snake
+            em.name.name-snake
+                | Snake
+                span :
+            p.msg.msg-en
+                | It's okay, Colonel... she's right.
+            p.msg.msg-cn
+                | NULL
+        .dialog
+            em.name.name-naomi
+                | Naomi
+                span :
+            p.msg.msg-en
+                | ....... (Snake walks over to Mantis.)
+            p.msg.msg-cn
+                | NULL
+        .dialog
+            em.name.name-mantis
+                | Mantis
+                span :
+            p.msg.msg-en
+                | So... you used the other... I... I wasn't able to read the future...
+            p.msg.msg-cn
+                | NULL
+        .dialog.dialog-snake
+            em.name.name-snake
+                | Snake
+                span :
+            p.msg.msg-en
+                | A strong man doesn't need to read the future.  He makes his own.
+            p.msg.msg-cn
+                | NULL
+        .dialog
+            em.name.name-mantis
+                | Mantis
+                span :
+            p.msg.msg-en
+                | Perhaps so... But I will also read your future... (Meryl gets up from the floor.)
+            p.msg.msg-cn
+                | NULL
+        .dialog
+            em.name.name-mantis
+                | Mantis
+                span :
+            p.msg.msg-en
+                | To get to Metal Gear's underground maintenance base... you have to go through that hidden door.  There's a hidden door behind the bookcase.  The overland route... it's blocked by frozen glaciers. Go past the communications towers.  Then use the tower's walkway. (While Mantis is talking we see what he is talking about.  Snake kneels down beside Mantis.)
+            p.msg.msg-cn
+                | NULL
+        .dialog.dialog-snake
+            em.name.name-snake
+                | Snake
+                span :
+            p.msg.msg-en
+                | Why are you telling me this?
+            p.msg.msg-cn
+                | NULL
+        .dialog
+            em.name.name-mantis
+                | Mantis
+                span :
+            p.msg.msg-en
+                | I can read people's minds.  In my lifetime I have read the pasts, presents, and futures of thousands upon thousands of men and women. (Snake takes off Mantis's mask.  Meryl grabs her mouth, apparently horrified.)
+            p.msg.msg-cn
+                | NULL
+        .dialog
+            em.name.name-meryl
+                | Meryl
+                span :
+            p.msg.msg-en
+                | Oh... gross...
+            p.msg.msg-cn
+                | NULL
+        .dialog
+            em.name.name-mantis
+                | Mantis
+                span :
+            p.msg.msg-en
+                | And each mind that I peered into was stuffed with the same single object of obsession.  That selfish and atavistic dsire to pass on one's seed... it was enough to make me sick.  Every living thing on this planet exists to mindlessly pass on their DNA.  We're designed that way.  And that's why there is war.  But you... you are different... You're the same as us.  We have no past, no future.  We live in the moment.  That's out only purpose.  Humans weren't designed to bring eachother happiness.  From the moment we're thrown into this world, we're fated to bring each other nothing but pain and misery.  The first person who's mind I dove into was my father's.  I saw nothing but disgust and hatred for me in his heart.  My mother died in childbirth... and he despised me for it... I thought my father was going to kill me. (Now we see Mantis's spirit or soul floating above him.)
+            p.msg.msg-cn
+                | NULL
+        .dialog
+            em.name.name-mantis
+                | Mantis
+                span :
+            p.msg.msg-en
+                | That's when my future dissapeared.  I lost my past as well.  When I came to, the village was engulfed in flames...
+            p.msg.msg-cn
+                | NULL
+        .dialog.dialog-snake
+            em.name.name-snake
+                | Snake
+                span :
+            p.msg.msg-en
+                | Are you saying you burned your village down to bury your past?
+            p.msg.msg-cn
+                | NULL
+        .dialog
+            em.name.name-mantis
+                | Mantis
+                span :
+            p.msg.msg-en
+                | I see that you have suffered the same trauma. (Mantis laughs feebly.)
+            p.msg.msg-cn
+                | NULL
+        .dialog
+            em.name.name-mantis
+                | Mantis
+                span :
+            p.msg.msg-en
+                | We are truly the same, you and I... The world is a more interesting place with people like you in it... I never agreed with the Boss's revolution.  His dreams of world conquest do not interest me.  I just wanted an excuse to kill as many people as I could. (Meryl is taken aback by this.)
+            p.msg.msg-cn
+                | NULL
+        .dialog
+            em.name.name-meryl
+                | Meryl
+                span :
+            p.msg.msg-en
+                | You monster!
+            p.msg.msg-cn
+                | NULL
+        .dialog.dialog-snake
+            em.name.name-snake
+                | Snake
+                span :
+            p.msg.msg-en
+                | Let him talk.  He doesn't have much time left.
+            p.msg.msg-cn
+                | NULL
+        .dialog
+            em.name.name-mantis
+                | Mantis
+                span :
+            p.msg.msg-en
+                | I've seen true evil.  You Snake.  You're just like the Boss... No, you're worse.  Compared to you, I'm not so bad. (Mantis nods to Meryl.)
+            p.msg.msg-cn
+                | NULL
+        .dialog
+            em.name.name-mantis
+                | Mantis
+                span :
+            p.msg.msg-en
+                | I read her mind as well.
+            p.msg.msg-cn
+                | NULL
+        .dialog.dialog-snake
+            em.name.name-snake
+                | Snake
+                span :
+            p.msg.msg-en
+                | Meryl's?
+            p.msg.msg-cn
+                | NULL
+        .dialog
+            em.name.name-mantis
+                | Mantis
+                span :
+            p.msg.msg-en
+                | I saw you there... you have a large place in heart. (Meryl touches Snake's shoulder.)
+            p.msg.msg-cn
+                | NULL
+        .dialog.dialog-snake
+            em.name.name-snake
+                | Snake
+                span :
+            p.msg.msg-en
+                | A large place?
+            p.msg.msg-cn
+                | NULL
+        .dialog
+            em.name.name-mantis
+                | Mantis
+                span :
+            p.msg.msg-en
+                | Yes. A large place.  But I do not know if your futures lie together.  I have a last request.
+            p.msg.msg-cn
+                | NULL
+        .dialog.dialog-snake
+            em.name.name-snake
+                | Snake
+                span :
+            p.msg.msg-en
+                | What is it?
+            p.msg.msg-cn
+                | NULL
+        .dialog
+            em.name.name-mantis
+                | Mantis
+                span :
+            p.msg.msg-en
+                | My mask... put it back on.
+            p.msg.msg-cn
+                | NULL
+        .dialog.dialog-snake
+            em.name.name-snake
+                | Snake
+                span :
+            p.msg.msg-en
+                | Okay. (Snake hesitates to put it back on while Mantis is talking.  He holds it over his face.)
+            p.msg.msg-cn
+                | NULL
+        .dialog
+            em.name.name-mantis
+                | Mantis
+                span :
+            p.msg.msg-en
+                | Like this... other people's thoughts force their way into my mind. Before I die... I want to be by myself.  I want to be left alone in my own world. (Snake places the mask on Mantis' face and secures it with the straps.)
+            p.msg.msg-cn
+                | NULL
+        .dialog
+            em.name.name-mantis
+                | Mantis
+                span :
+            p.msg.msg-en
+                | I'll open the door for you. (Mantis reaches out a hand and moves it so that the bookshelf blocking the door moves out of the way.)
+            p.msg.msg-cn
+                | NULL
+        .dialog
+            em.name.name-mantis
+                | Mantis
+                span :
+            p.msg.msg-en
+                | If you want to find your future, go through that door.  This is the first time I've ever used my power to help someone.  It's strange... it feels... kind of... nice. (Mantis' head lolls to one side.  Snake pauses for a moment and then stands up.)
+            p.msg.msg-cn
+                | NULL
+        .dialog.dialog-snake
+            em.name.name-snake
+                | Snake
+                span :
+            p.msg.msg-en
+                | Let's go, Meryl.
+            p.msg.msg-cn
+                | NULL
+        .dialog
+            em.name.name-meryl
+                | Meryl
+                span :
+            p.msg.msg-en
+                | I'm sorry...
+            p.msg.msg-cn
+                | NULL
+        .dialog.dialog-snake
+            em.name.name-snake
+                | Snake
+                span :
+            p.msg.msg-en
+                | Meryl?
+            p.msg.msg-cn
+                | NULL
+        .dialog
+            em.name.name-meryl
+                | Meryl
+                span :
+            p.msg.msg-en
+                | How could I let Mantis control my mind like that...
+            p.msg.msg-cn
+                | NULL
+        .dialog.dialog-snake
+            em.name.name-snake
+                | Snake
+                span :
+            p.msg.msg-en
+                | If you're going to doubt yourself, I'll leave you here.
+            p.msg.msg-cn
+                | NULL
+        .dialog
+            em.name.name-meryl
+                | Meryl
+                span :
+            p.msg.msg-en
+                | You're right.
+            p.msg.msg-cn
+                | NULL
+        .dialog.dialog-snake
+            em.name.name-snake
+                | Snake
+                span :
+            p.msg.msg-en
+                | Never doubt yourself.  Just let it make you stronger.  Learn something from it.
+            p.msg.msg-cn
+                | NULL
+        .dialog
+            em.name.name-meryl
+                | Meryl
+                span :
+            p.msg.msg-en
+                | You're right.  I'm sorry.  I won't do it again. (Snake turns to leave.)
+            p.msg.msg-cn
+                | NULL
+        .dialog
+            em.name.name-meryl
+                | Meryl
+                span :
+            p.msg.msg-en
+                | Snake, can I ask you something?
+            p.msg.msg-cn
+                | NULL
+        .dialog.dialog-snake
+            em.name.name-snake
+                | Snake
+                span :
+            p.msg.msg-en
+                | What!?
+            p.msg.msg-cn
+                | NULL
+        .dialog
+            em.name.name-meryl
+                | Meryl
+                span :
+            p.msg.msg-en
+                | About what Mantis said... I was just wondering...
+            p.msg.msg-cn
+                | NULL
+        .dialog.dialog-snake
+            em.name.name-snake
+                | Snake
+                span :
+            p.msg.msg-en
+                | What?  What's the problem now?
+            p.msg.msg-cn
+                | NULL
+        .dialog
+            em.name.name-meryl
+                | Meryl
+                span :
+            p.msg.msg-en
+                | Oh no... nothing.  So tell me, Snake.  What's your name?  Your real name?
+            p.msg.msg-cn
+                | NULL
+        .dialog.dialog-snake
+            em.name.name-snake
+                | Snake
+                span :
+            p.msg.msg-en
+                | Name means nothing on the battlfield.
+            p.msg.msg-cn
+                | NULL
+        .dialog
+            em.name.name-meryl
+                | Meryl
+                span :
+            p.msg.msg-en
+                | How old are you?
+            p.msg.msg-cn
+                | NULL
+        .dialog.dialog-snake
+            em.name.name-snake
+                | Snake
+                span :
+            p.msg.msg-en
+                | OLd enough to know what death looks like.
+            p.msg.msg-cn
+                | NULL
+        .dialog
+            em.name.name-meryl
+                | Meryl
+                span :
+            p.msg.msg-en
+                | Any family?
+            p.msg.msg-cn
+                | NULL
+        .dialog.dialog-snake
+            em.name.name-snake
+                | Snake
+                span :
+            p.msg.msg-en
+                | No, but I was raised by many people.
+            p.msg.msg-cn
+                | NULL
+        .dialog
+            em.name.name-meryl
+                | Meryl
+                span :
+            p.msg.msg-en
+                | Is there anyone you like?
+            p.msg.msg-cn
+                | NULL
+        .dialog.dialog-snake
+            em.name.name-snake
+                | Snake
+                span :
+            p.msg.msg-en
+                | I've never been interested in anyone else's life...
+            p.msg.msg-cn
+                | NULL
+        .dialog
+            em.name.name-meryl
+                | Meryl
+                span :
+            p.msg.msg-en
+                | So you are all alone.  Just like Mantis said.
+            p.msg.msg-cn
+                | NULL
+        .dialog.dialog-snake
+            em.name.name-snake
+                | Snake
+                span :
+            p.msg.msg-en
+                | Other people just complicate my life.  I don't like to get involved.
+            p.msg.msg-cn
+                | NULL
+        .dialog
+            em.name.name-meryl
+                | Meryl
+                span :
+            p.msg.msg-en
+                | You're a sad, lonely man.
+            p.msg.msg-cn
+                | NULL
+        .dialog.dialog-snake
+            em.name.name-snake
+                | Snake
+                span :
+            p.msg.msg-en
+                | C'mon... let's go. (Snake and Meryl head out the hidden door.)
+            p.msg.msg-cn
+                | NULL
+        .dialog
+            em.name.name-meryl
+                | Meryl
+                span :
+            p.msg.msg-en
+                | Okay, I'll take point again.  Follow me. (Snake has to follow Meryl through a cave with a dozen or so wolf-dogs patrolling it.  When they see him they attack him.  Eventually, Snake meets up with Meryl on the other end of the cave.)
+            p.msg.msg-cn
+                | NULL
+        .dialog
+            em.name.name-meryl
+                | Meryl
+                span :
+            p.msg.msg-en
+                | What's wrong, Snake? I thought you were good with dogs? (They go into the next room.  They find themselves in the Underground Passage. Meryl stops Snake from advancing, because of mines.)
+            p.msg.msg-cn
+                | NULL
+        .dialog
+            em.name.name-meryl
+                | Meryl
+                span :
+            p.msg.msg-en
+                | Hold up, Snake!  This place is mined.
+            p.msg.msg-cn
+                | NULL
+        .dialog.dialog-snake
+            em.name.name-snake
+                | Snake
+                span :
+            p.msg.msg-en
+                | The radar isn't working.  And since we can't use the mine detector either...
+            p.msg.msg-cn
+                | NULL
+        .dialog
+            em.name.name-meryl
+                | Meryl
+                span :
+            p.msg.msg-en
+                | Leave it to me... (Meryl walks through the mine field and gets to the other side unscathed.)
+            p.msg.msg-cn
+                | NULL
+        .dialog.dialog-snake
+            em.name.name-snake
+                | Snake
+                span :
+            p.msg.msg-en
+                | How did you know where the mines were?
+            p.msg.msg-cn
+                | NULL
+        .dialog
+            em.name.name-meryl
+                | Meryl
+                span :
+            p.msg.msg-en
+                | When Mantis dove into my mind, I could see where the mines were placed. Are you impressed?
+            p.msg.msg-cn
+                | NULL
+        .dialog.dialog-snake
+            em.name.name-snake
+                | Snake
+                span :
+            p.msg.msg-en
+                | Well... a little bit. (Now we see a set of crosshairs centered on Snake.  They move to Meryl.  She turns around.)
+            p.msg.msg-cn
+                | NULL
+        .dialog.dialog-snake
+            em.name.name-snake
+                | Snake
+                span :
+            p.msg.msg-en
+                | Meryl!!
+            p.msg.msg-cn
+                | NULL
+        .dialog
+            em.name.name-meryl
+                | Meryl
+                span :
+            p.msg.msg-en
+                | What is it? (The laser point on Meryl moves down to her right thigh.)
+            p.msg.msg-cn
+                | NULL
+        .dialog.dialog-snake
+            em.name.name-snake
+                | Snake
+                span :
+            p.msg.msg-en
+                | Meryl, get down!!! (Meryl is shot in the leg.)
+            p.msg.msg-cn
+                | NULL
+        .dialog
+            em.name.name-meryl
+                | Meryl
+                span :
+            p.msg.msg-en
+                | Aaaaaahhhh!!
+            p.msg.msg-cn
+                | NULL
+        .dialog.dialog-snake
+            em.name.name-snake
+                | Snake
+                span :
+            p.msg.msg-en
+                | Meryl!! (Snake quickly takes cover behind the wall and looks over to Meryl.  She is on her knees now.  She is shot again, this time in her left leg.)
+            p.msg.msg-cn
+                | NULL
+        .dialog
+            em.name.name-meryl
+                | Meryl
+                span :
+            p.msg.msg-en
+                | Aaaaaaaaahhhh!!! (She collapses in a pool of blood and tries to reach her gun beside her.  The sniper acts quickly and shoots her in the arm.)
+            p.msg.msg-cn
+                | NULL
+        .dialog
+            em.name.name-meryl
+                | Meryl
+                span :
+            p.msg.msg-en
+                | Aaaaaaaghhhh!!! (Meryl gives up and lies on her back, bleeding badly.  Snake tries to move towards her, but he is met by a bullet that hist the wall right near him.)
+            p.msg.msg-cn
+                | NULL
+        .dialog
+            em.name.name-meryl
+                | Meryl
+                span :
+            p.msg.msg-en
+                | Snake.... leave me and run...
+            p.msg.msg-cn
+                | NULL
+        .dialog.dialog-snake
+            em.name.name-snake
+                | Snake
+                span :
+            p.msg.msg-en
+                | Meryl...
+            p.msg.msg-cn
+                | NULL
+        .dialog
+            em.name.name-meryl
+                | Meryl
+                span :
+            p.msg.msg-en
+                | I guess... I am a rookie after all...
+            p.msg.msg-cn
+                | NULL
+        .dialog.dialog-snake
+            em.name.name-snake
+                | Snake
+                span :
+            p.msg.msg-en
+                | Don't worry, Meryl.  It's me they want.
+            p.msg.msg-cn
+                | NULL
+        .dialog
+            em.name.name-meryl
+                | Meryl
+                span :
+            p.msg.msg-en
+                | Even I know that, it's the oldest trick in the book.  The sniper's using me for bait to lure you out.
+            p.msg.msg-cn
+                | NULL
+        .dialog.dialog-snake
+            em.name.name-snake
+                | Snake
+                span :
+            p.msg.msg-en
+                | Damn!!
+            p.msg.msg-cn
+                | NULL
+        .dialog
+            em.name.name-meryl
+                | Meryl
+                span :
+            p.msg.msg-en
+                | Shoot me, Snake!!
+            p.msg.msg-cn
+                | NULL
+        .dialog.dialog-snake
+            em.name.name-snake
+                | Snake
+                span :
+            p.msg.msg-en
+                | No!
+            p.msg.msg-cn
+                | NULL
+        .dialog
+            em.name.name-meryl
+                | Meryl
+                span :
+            p.msg.msg-en
+                | My gun... I can't reach it by myself.
+            p.msg.msg-cn
+                | NULL
+        .dialog.dialog-snake
+            em.name.name-snake
+                | Snake
+                span :
+            p.msg.msg-en
+                | Don't move!
+            p.msg.msg-cn
+                | NULL
+        .dialog
+            em.name.name-meryl
+                | Meryl
+                span :
+            p.msg.msg-en
+                | I promised... I wouldn't slow you down!  I... I... I can still help... I want to help you!
+            p.msg.msg-cn
+                | NULL
+        .dialog.dialog-snake
+            em.name.name-snake
+                | Snake
+                span :
+            p.msg.msg-en
+                | Quiet down!  Save your strength!
+            p.msg.msg-cn
+                | NULL
+        .dialog
+            em.name.name-meryl
+                | Meryl
+                span :
+            p.msg.msg-en
+                | I was a fool, I wanted to be a soldier.  But war is ugly... There's nothing glamorous about it.  Snake, please!  Save yourself.  Go on living and don't give up on people!  Don't forget me... Now get out of here! (Snake's Codec is ringing.)
+            p.msg.msg-cn
+                | NULL
+        .dialog
+            em.name.name-campbell
+                | Campbell
+                span :
+            p.msg.msg-en
+                | Meryl!  Damn!! Snake, it's a trap!  Sniper's trick to lure you out. The sniper's waiting for you to go and help Meryl so he can pick you off... Don't do it!
+            p.msg.msg-cn
+                | NULL
+        .dialog
+            em.name.name-naomi
+                | Naomi
+                span :
+            p.msg.msg-en
+                | It must be Sniper Wolf, FOX-HOUND's best shooter.
+            p.msg.msg-cn
+                | NULL
+        .dialog.dialog-snake
+            em.name.name-snake
+                | Snake
+                span :
+            p.msg.msg-en
+                | Sniper's usually work in pairs, but this one's alone, huh?
+            p.msg.msg-cn
+                | NULL
+        .dialog
+            em.name.name-naomi
+                | Naomi
+                span :
+            p.msg.msg-en
+                | I know her.  She can wait for hours, days, or weeks, it doesn't matter to her.  She's just watching and waiting for you to expose yourself.
+            p.msg.msg-cn
+                | NULL
+        .dialog.dialog-snake
+            em.name.name-snake
+                | Snake
+                span :
+            p.msg.msg-en
+                | Maybe so, but Meryl can't hold out that long...
+            p.msg.msg-cn
+                | NULL
+        .dialog
+            em.name.name-naomi
+                | Naomi
+                span :
+            p.msg.msg-en
+                | Snake, can you see Wolf from where you are?
+            p.msg.msg-cn
+                | NULL
+        .dialog.dialog-snake
+            em.name.name-snake
+                | Snake
+                span :
+            p.msg.msg-en
+                | There's no where to hide between here and the tower... she must be on the second floor of the tower.
+            p.msg.msg-cn
+                | NULL
+        .dialog
+            em.name.name-campbell
+                | Campbell
+                span :
+            p.msg.msg-en
+                | If Wolf is in the Communications Tower, she can see you perfectly! It's the classic sniper's position!!  At that distance you won't be able to hit her with a standard weapon either!  You'll need a sniper rifle.
+            p.msg.msg-cn
+                | NULL
+        .dialog.dialog-snake
+            em.name.name-snake
+                | Snake
+                span :
+            p.msg.msg-en
+                | Colonel!  Take it easy.
+            p.msg.msg-cn
+                | NULL
+        .dialog
+            em.name.name-campbell
+                | Campbell
+                span :
+            p.msg.msg-en
+                | ......
+            p.msg.msg-cn
+                | NULL
+        .dialog.dialog-snake
+            em.name.name-snake
+                | Snake
+                span :
+            p.msg.msg-en
+                | I'm going to save Meryl no matter what it takes.
+            p.msg.msg-cn
+                | NULL
+        .dialog
+            em.name.name-campbell
+                | Campbell
+                span :
+            p.msg.msg-en
+                | Okay, thanks.
+            p.msg.msg-cn
+                | NULL
+        .dialog
+            em.name.name-naomi
+                | Naomi
+                span :
+            p.msg.msg-en
+                | ......
+            p.msg.msg-cn
+                | NULL
+        .dialog.dialog-snake
+            em.name.name-snake
+                | Snake
+                span :
+            p.msg.msg-en
+                | What's wrong, Naomi?
+            p.msg.msg-cn
+                | NULL
+        .dialog
+            em.name.name-naomi
+                | Naomi
+                span :
+            p.msg.msg-en
+                | Nothing... I'm just surprised you're willing to sacrifice yourself... you've got the genes of a soldier, not a savior.
+            p.msg.msg-cn
+                | NULL
+        .dialog.dialog-snake
+            em.name.name-snake
+                | Snake
+                span :
+            p.msg.msg-en
+                | Trying to say that I'm only interested in saving my own skin?
+            p.msg.msg-cn
+                | NULL
+        .dialog
+            em.name.name-naomi
+                | Naomi
+                span :
+            p.msg.msg-en
+                | I wouldn't go that far but...
+            p.msg.msg-cn
+                | NULL
+        .dialog.dialog-snake
+            em.name.name-snake
+                | Snake
+                span :
+            p.msg.msg-en
+                | I don't know what the hell my genes look like and I don't care. I operate on instinct.
+            p.msg.msg-cn
+                | NULL
+        .dialog
+            em.name.name-naomi
+                | Naomi
+                span :
+            p.msg.msg-en
+                | Like an animal?
+            p.msg.msg-cn
+                | NULL
+        .dialog.dialog-snake
+            em.name.name-snake
+                | Snake
+                span :
+            p.msg.msg-en
+                | I'm going to save Meryl.  I don't need an excuse.
+            p.msg.msg-cn
+                | NULL
+        .dialog
+            em.name.name-naomi
+                | Naomi
+                span :
+            p.msg.msg-en
+                | Okay...
+            p.msg.msg-cn
+                | NULL
+        .dialog.dialog-snake
+            em.name.name-snake
+                | Snake
+                span :
+            p.msg.msg-en
+                | And I'm not doing it for someone else either.  I'm going to save Meryl by myself.  Colonel, don't worry!
+            p.msg.msg-cn
+                | NULL
+        .dialog
+            em.name.name-campbell
+                | Campbell
+                span :
+            p.msg.msg-en
+                | Snake, thanks.
+            p.msg.msg-cn
+                | NULL
+        .dialog
+            em.name.name-naomi
+                | Naomi
+                span :
+            p.msg.msg-en
+                | I understand.  I'm sorry. (Snake goes off to find the PSG1.  He finds it in Armory.)
+            p.msg.msg-cn
+                | NULL
+        .dialog
+            em.name.name-campbell
+                | Campbell
+                span :
+            p.msg.msg-en
+                | You've got a PSG1?  Hurry up and save Meryl! (Snake hurries off to the Underground Passage.  He battles Wolf and defeats her.  Meryl has been taken away so he proceeds through the Underground Passage looking for her.  He reaches the door on the other end but three heavily armed guards rappel from the ceiling behind him.)
+            p.msg.msg-cn
+                | NULL
+        .dialog
+            em.name.name-guards
+                | Guards
+                span :
+            p.msg.msg-en
+                | Freeze!! (Snake holds up his hands and looks at the guards, waiting for something to happen.)
+            p.msg.msg-cn
+                | NULL
+        .dialog
+            em.name.name-wolf
+                | Wolf
+                span :
+            p.msg.msg-en
+                | It's hard to miss when you're this close. (Snake sees Wolf approaching him with her rifle pointed squarely at his chest.)
+            p.msg.msg-cn
+                | NULL
+        .dialog
+            em.name.name-wolf
+                | Wolf
+                span :
+            p.msg.msg-en
+                | Toss your weapon over here.  Slowly... (Snake slides his SOCOM across the floor, one of the guards picks it up. Wolf and one of the guards go closer to him.)
+            p.msg.msg-cn
+                | NULL
+        .dialog
+            em.name.name-wolf
+                | Wolf
+                span :
+            p.msg.msg-en
+                | You are a fool to come down here.. stupid man!
+            p.msg.msg-cn
+                | NULL
+        .dialog.dialog-snake
+            em.name.name-snake
+                | Snake
+                span :
+            p.msg.msg-en
+                | A lady sniper, huh?
+            p.msg.msg-cn
+                | NULL
+        .dialog
+            em.name.name-wolf
+                | Wolf
+                span :
+            p.msg.msg-en
+                | Didn't you know that two thirds of the world's greatest assassins are women?  Do you want to die now?  Or after your female friend? Which will it be?
+            p.msg.msg-cn
+                | NULL
+        .dialog.dialog-snake
+            em.name.name-snake
+                | Snake
+                span :
+            p.msg.msg-en
+                | I'll die after I kill you. (She lets out a small laugh.)
+            p.msg.msg-cn
+                | NULL
+        .dialog
+            em.name.name-wolf
+                | Wolf
+                span :
+            p.msg.msg-en
+                | Is that right?  Well at least you've got spirit. (Wolf lets down her gun and runs her hand through her hair.)
+            p.msg.msg-cn
+                | NULL
+        .dialog
+            em.name.name-wolf
+                | Wolf
+                span :
+            p.msg.msg-en
+                | I am Sniper Wolf and I always kill what I aim at. (She walks over to him and reaches up to his face.)
+            p.msg.msg-cn
+                | NULL
+        .dialog
+            em.name.name-wolf
+                | Wolf
+                span :
+            p.msg.msg-en
+                | You're my... special prey.  Got it? (She scratches Snake's cheek, drawing blood. Snake lets out a small grunt.)
+            p.msg.msg-cn
+                | NULL
+        .dialog
+            em.name.name-wolf
+                | Wolf
+                span :
+            p.msg.msg-en
+                | I've left my mark on you... I won't forget it.  Until I kill you, you're all I'll think about. (The guard closest to Snake whacks him in the head with the but of his rifle. Snake falls to the floor, unconscious.)
+            p.msg.msg-cn
+                | NULL
+        .dialog.dialog-snake
+            em.name.name-snake
+                | Snake
+                span :
+            p.msg.msg-en
+                | Uuuuhh!!
+            p.msg.msg-cn
+                | NULL
+        .dialog
+            em.name.name-guard
+                | Guard
+                span :
+            p.msg.msg-en
+                | Take him away! (Snake is dragged away back down the Underground Passage, away from where he was heading. We now see a faint outline of something onscreen, there are distant voices.)
+            p.msg.msg-cn
+                | NULL
+        .dialog
+            em.name.name-liquid
+                | Liquid
+                span :
+            p.msg.msg-en
+                | Don't kill him yet. I want him alive.
+            p.msg.msg-cn
+                | NULL
+        .dialog
+            em.name.name-ocelot
+                | Ocelot
+                span :
+            p.msg.msg-en
+                | Leave it to me.
+            p.msg.msg-cn
+                | NULL
+        .dialog
+            em.name.name-liquid
+                | Liquid
+                span :
+            p.msg.msg-en
+                | I want no more accidents like that DARPA Chief.
+            p.msg.msg-cn
+                | NULL
+        .dialog
+            em.name.name-wolf
+                | Wolf
+                span :
+            p.msg.msg-en
+                | Yes.  He's my target.  Mine alone. (We now see an overhead medical lamp.  There are background noises of computers running.)
+            p.msg.msg-cn
+                | NULL
+        .dialog
+            em.name.name-liquid
+                | Liquid
+                span :
+            p.msg.msg-en
+                | Can you hear me, Solid Snake?
+            p.msg.msg-cn
+                | NULL
+        .dialog
+            em.name.name-wolf
+                | Wolf
+                span :
+            p.msg.msg-en
+                | He's tougher than I thought...
+            p.msg.msg-cn
+                | NULL
+        .dialog
+            em.name.name-liquid
+                | Liquid
+                span :
+            p.msg.msg-en
+                | Do you know who I am?  I always knew that one day I would meet you. The man who stole what was rightly mine... the man who stole my birthright.  Me? I'm the man you stole everything good from. And now, after the sacrifice of our brothers... after 30 long years, finally the two of us meet.  The brother of light and the brother of dark.
+            p.msg.msg-cn
+                | NULL
+        .dialog
+            em.name.name-wolf
+                | Wolf
+                span :
+            p.msg.msg-en
+                | Do you need his DNA too?
+            p.msg.msg-cn
+                | NULL
+        .dialog
+            em.name.name-liquid
+                | Liquid
+                span :
+            p.msg.msg-en
+                | Yes, I want a sample while he's still alive.  We need it to correct the Genome Soldier's mutations.
+            p.msg.msg-cn
+                | NULL
+        .dialog
+            em.name.name-wolf
+                | Wolf
+                span :
+            p.msg.msg-en
+                | Then we'll be able to cure them?
+            p.msg.msg-cn
+                | NULL
+        .dialog
+            em.name.name-liquid
+                | Liquid
+                span :
+            p.msg.msg-en
+                | No.  We still have to get our hands on Big Boss's DNA.
+            p.msg.msg-cn
+                | NULL
+        .dialog
+            em.name.name-wolf
+                | Wolf
+                span :
+            p.msg.msg-en
+                | Have they given in to our demands yet?
+            p.msg.msg-cn
+                | NULL
+        .dialog
+            em.name.name-liquid
+                | Liquid
+                span :
+            p.msg.msg-en
+                | Not yet.
+            p.msg.msg-cn
+                | NULL
+        .dialog
+            em.name.name-wolf
+                | Wolf
+                span :
+            p.msg.msg-en
+                | They won't give in.  They're all hypocrites, every one of them.
+            p.msg.msg-cn
+                | NULL
+        .dialog
+            em.name.name-liquid
+                | Liquid
+                span :
+            p.msg.msg-en
+                | Is that your opinion as a Kurd?
+            p.msg.msg-cn
+                | NULL
+        .dialog
+            em.name.name-wolf
+                | Wolf
+                span :
+            p.msg.msg-en
+                | They always put politics first.
+            p.msg.msg-cn
+                | NULL
+        .dialog
+            em.name.name-liquid
+                | Liquid
+                span :
+            p.msg.msg-en
+                | That's right.  That's why they want to avoid any leak about their precious new nuclear weapon.
+            p.msg.msg-cn
+                | NULL
+        .dialog
+            em.name.name-ocelot
+                | Ocelot
+                span :
+            p.msg.msg-en
+                | Boss, it looks like our friend is awake. (Snake is abruptly brought down somewhere to face Liquid, who is standing in front of him.  Snake is strapped into a revolving metal bed.)
+            p.msg.msg-cn
+                | NULL
+        .dialog
+            em.name.name-liquid
+                | Liquid
+                span :
+            p.msg.msg-en
+                | There definitely is a resemblance.  Don't you think, little brother? Or should I say big brother?  I'm not sure... Anyway, it doesn't matter.  You and I are both the last surviving "sons of Big Boss". (Liquid's cell phone rings, he pulls it out hurridly.)
+            p.msg.msg-cn
+                | NULL
+        .dialog
+            em.name.name-liquid
+                | Liquid
+                span :
+            p.msg.msg-en
+                | It's me... Really?  Then what?  Those idiots!  All right Raven. I'll be right there. (Liquid puts it away and talks to Wolf and Ocelot.)
+            p.msg.msg-cn
+                | NULL
+        .dialog
+            em.name.name-liquid
+                | Liquid
+                span :
+            p.msg.msg-en
+                | They're not responding to our demands.  We'll launch the first one in 10 hours as planned.
+            p.msg.msg-cn
+                | NULL
+        .dialog
+            em.name.name-wolf
+                | Wolf
+                span :
+            p.msg.msg-en
+                | Damn Americans!!
+            p.msg.msg-cn
+                | NULL
+        .dialog
+            em.name.name-ocelot
+                | Ocelot
+                span :
+            p.msg.msg-en
+                | Looks like you read them wrong.
+            p.msg.msg-cn
+                | NULL
+        .dialog
+            em.name.name-liquid
+                | Liquid
+                span :
+            p.msg.msg-en
+                | Something's funny... Normally the Americans are the first ones to the negotiating table.  They must think they've go something up their sleeves.
+            p.msg.msg-cn
+                | NULL
+        .dialog
+            em.name.name-ocelot
+                | Ocelot
+                span :
+            p.msg.msg-en
+                | So it's come down to it, has it.  We're going to launch that nuke and ride it all the way into history.
+            p.msg.msg-cn
+                | NULL
+        .dialog
+            em.name.name-liquid
+                | Liquid
+                span :
+            p.msg.msg-en
+                | I've got to take care of some launch preparations.  You're in charge here, Ocelot. (Ocelot speaks to Sniper Wolf.)
+            p.msg.msg-cn
+                | NULL
+        .dialog
+            em.name.name-ocelot
+                | Ocelot
+                span :
+            p.msg.msg-en
+                | What about you?  Wanna stay for the show?
+            p.msg.msg-cn
+                | NULL
+        .dialog
+            em.name.name-wolf
+                | Wolf
+                span :
+            p.msg.msg-en
+                | I'm not interested.  It's time to feed the family. (Wolf shakes around a small canister of pills.  She takes a few out and swallows them.)
+            p.msg.msg-cn
+                | NULL
+        .dialog
+            em.name.name-ocelot
+                | Ocelot
+                span :
+            p.msg.msg-en
+                | So, you prefer your wolves to my show, huh?
+            p.msg.msg-cn
+                | NULL
+        .dialog
+            em.name.name-liquid
+                | Liquid
+                span :
+            p.msg.msg-en
+                | Ocelot, don't screw up like you did with the Chief.
+            p.msg.msg-cn
+                | NULL
+        .dialog
+            em.name.name-ocelot
+                | Ocelot
+                span :
+            p.msg.msg-en
+                | Yes, I know.  That was an accident.  I didn't think a pencil pusher like him would be so tough.
+            p.msg.msg-cn
+                | NULL
+        .dialog
+            em.name.name-liquid
+                | Liquid
+                span :
+            p.msg.msg-en
+                | Well... his mental defenses were reinforced by hypnotherapy.
+            p.msg.msg-cn
+                | NULL
+        .dialog
+            em.name.name-ocelot
+                | Ocelot
+                span :
+            p.msg.msg-en
+                | Boss, what about that ninja?
+            p.msg.msg-cn
+                | NULL
+        .dialog
+            em.name.name-liquid
+                | Liquid
+                span :
+            p.msg.msg-en
+                | He killed 12 men.  Whoever he is, he's some kind of lunatic.
+            p.msg.msg-cn
+                | NULL
+        .dialog
+            em.name.name-ocelot
+                | Ocelot
+                span :
+            p.msg.msg-en
+                | Bastard took my hand... How could he have gotten in here?
+            p.msg.msg-cn
+                | NULL
+        .dialog
+            em.name.name-liquid
+                | Liquid
+                span :
+            p.msg.msg-en
+                | Perhaps there's a spy among us... Mantis is dead.  We've also got to find out what killed Baker and Octopus.  We're shorthanded, so make this little torture show of yours as short as possible.
+            p.msg.msg-cn
+                | NULL
+        .dialog
+            em.name.name-ocelot
+                | Ocelot
+                span :
+            p.msg.msg-en
+                | Torture?  This is an interrogation.
+            p.msg.msg-cn
+                | NULL
+        .dialog
+            em.name.name-liquid
+                | Liquid
+                span :
+            p.msg.msg-en
+                | As you wish. (Liquid turns to Snake.)
+            p.msg.msg-cn
+                | NULL
+        .dialog
+            em.name.name-liquid
+                | Liquid
+                span :
+            p.msg.msg-en
+                | See you later, brother... (Liquid leaves.  Wolf walks up to Snake.)
+            p.msg.msg-cn
+                | NULL
+        .dialog
+            em.name.name-wolf
+                | Wolf
+                span :
+            p.msg.msg-en
+                | Your woman is still in this world...
+            p.msg.msg-cn
+                | NULL
+        .dialog.dialog-snake
+            em.name.name-snake
+                | Snake
+                span :
+            p.msg.msg-en
+                | Meryl...
+            p.msg.msg-cn
+                | NULL
+        .dialog
+            em.name.name-wolf
+                | Wolf
+                span :
+            p.msg.msg-en
+                | Catch you later, handsome... (Wolf leaves.)
+            p.msg.msg-cn
+                | NULL
+        .dialog
+            em.name.name-ocelot
+                | Ocelot
+                span :
+            p.msg.msg-en
+                | Once she picks a target, she doesn't think about anything else. Sometimes she even falls in live with thwm before she kills them. Finally, just the two of us.  How are you feeling?
+            p.msg.msg-cn
+                | NULL
+        .dialog.dialog-snake
+            em.name.name-snake
+                | Snake
+                span :
+            p.msg.msg-en
+                | Not bad.  I caught a nice nap on this revolving bed of yours.  Too bad I was sleeping alone.
+            p.msg.msg-cn
+                | NULL
+        .dialog
+            em.name.name-ocelot
+                | Ocelot
+                span :
+            p.msg.msg-en
+                | Glad to hear that.  This is some bed all right.  I'm about to show you some of its nicer features...
+            p.msg.msg-cn
+                | NULL
+        .dialog.dialog-snake
+            em.name.name-snake
+                | Snake
+                span :
+            p.msg.msg-en
+                | Where are my things?
+            p.msg.msg-cn
+                | NULL
+        .dialog
+            em.name.name-ocelot
+                | Ocelot
+                span :
+            p.msg.msg-en
+                | Oh don't worry.  They're all there.  Washington was taking quite a chance sending you here.  Someone must have had a lot of faith in your skill.  Huh, carrier boy?
+            p.msg.msg-cn
+                | NULL
+        .dialog.dialog-snake
+            em.name.name-snake
+                | Snake
+                span :
+            p.msg.msg-en
+                | So, Metal Gear is armed with a new type of nuclear warhead, huh?
+            p.msg.msg-cn
+                | NULL
+        .dialog
+            em.name.name-ocelot
+                | Ocelot
+                span :
+            p.msg.msg-en
+                | Why don't you go ask Campbell for the full story?
+            p.msg.msg-cn
+                | NULL
+        .dialog.dialog-snake
+            em.name.name-snake
+                | Snake
+                span :
+            p.msg.msg-en
+                | The Colonel?
+            p.msg.msg-cn
+                | NULL
+        .dialog
+            em.name.name-ocelot
+                | Ocelot
+                span :
+            p.msg.msg-en
+                | By the way, you get an optical disk from President Baker, didn't you?
+            p.msg.msg-cn
+                | NULL
+        .dialog.dialog-snake
+            em.name.name-snake
+                | Snake
+                span :
+            p.msg.msg-en
+                | What if I did?
+            p.msg.msg-cn
+                | NULL
+        .dialog
+            em.name.name-ocelot
+                | Ocelot
+                span :
+            p.msg.msg-en
+                | Is that the only disc?  There's no other data?
+            p.msg.msg-cn
+                | NULL
+        .dialog.dialog-snake
+            em.name.name-snake
+                | Snake
+                span :
+            p.msg.msg-en
+                | What do you mean?
+            p.msg.msg-cn
+                | NULL
+        .dialog
+            em.name.name-ocelot
+                | Ocelot
+                span :
+            p.msg.msg-en
+                | There's no copy?  If not, that's fine.
+            p.msg.msg-cn
+                | NULL
+        .dialog.dialog-snake
+            em.name.name-snake
+                | Snake
+                span :
+            p.msg.msg-en
+                | Is Meryl okay?
+            p.msg.msg-cn
+                | NULL
+        .dialog
+            em.name.name-ocelot
+                | Ocelot
+                span :
+            p.msg.msg-en
+                | She's not dead yet.  Wolf must have been feeling generous.  But if you want her to stray that way you better start answering my questions right now.  You were holding one card key.  Where are the other two?  What's the trick behind that key!?  That weasel of a president said there's some kind of trick to using the key.
+            p.msg.msg-cn
+                | NULL
+        .dialog.dialog-snake
+            em.name.name-snake
+                | Snake
+                span :
+            p.msg.msg-en
+                | Hell if I know.
+            p.msg.msg-cn
+                | NULL
+        .dialog
+            em.name.name-ocelot
+                | Ocelot
+                span :
+            p.msg.msg-en
+                | I see.  No problem then.  We're going to play a game, Snake.  And we'll find out what kind of man we really are.  When the pain becomes too great to bear just give up and your suffering will end.  But if you do, the girl's life is mine. (Snake is brought back to his cell.  He sees a dead body laying in the corner.)
+            p.msg.msg-cn
+                | NULL
+        .dialog.dialog-snake
+            em.name.name-snake
+                | Snake
+                span :
+            p.msg.msg-en
+                | Looks like I've got a roommate.  The DARPA Chief!?  Whew...what a stench! (Campbell calls on the Codec.)
+            p.msg.msg-cn
+                | NULL
+        .dialog
+            em.name.name-campbell
+                | Campbell
+                span :
+            p.msg.msg-en
+                | Snake, are you okay?
+            p.msg.msg-cn
+                | NULL
+        .dialog.dialog-snake
+            em.name.name-snake
+                | Snake
+                span :
+            p.msg.msg-en
+                | I've been better.
+            p.msg.msg-cn
+                | NULL
+        .dialog
+            em.name.name-naomi
+                | Naomi
+                span :
+            p.msg.msg-en
+                | How's Meryl?
+            p.msg.msg-cn
+                | NULL
+        .dialog.dialog-snake
+            em.name.name-snake
+                | Snake
+                span :
+            p.msg.msg-en
+                | ........
+            p.msg.msg-cn
+                | NULL
+        .dialog
+            em.name.name-campbell
+                | Campbell
+                span :
+            p.msg.msg-en
+                | ........ Snake, the government has decided not to give in to their demands.  We're trying to buy some more time.
+            p.msg.msg-cn
+                | NULL
+        .dialog.dialog-snake
+            em.name.name-snake
+                | Snake
+                span :
+            p.msg.msg-en
+                | C'mon, Colonel.  Why don't you stop playing dumb?  I'm sorry about Meryl but I want the lies to end now.
+            p.msg.msg-cn
+                | NULL
+        .dialog
+            em.name.name-campbell
+                | Campbell
+                span :
+            p.msg.msg-en
+                | What are you talking about?
+            p.msg.msg-cn
+                | NULL
+        .dialog.dialog-snake
+            em.name.name-snake
+                | Snake
+                span :
+            p.msg.msg-en
+                | Metal Gear was designed to launch a new type of nuclear warhead, wasn't it?
+            p.msg.msg-cn
+                | NULL
+        .dialog
+            em.name.name-campbell
+                | Campbell
+                span :
+            p.msg.msg-en
+                | !
+            p.msg.msg-cn
+                | NULL
+        .dialog.dialog-snake
+            em.name.name-snake
+                | Snake
+                span :
+            p.msg.msg-en
+                | You knew it all along, didn't you?
+            p.msg.msg-cn
+                | NULL
+        .dialog
+            em.name.name-campbell
+                | Campbell
+                span :
+            p.msg.msg-en
+                | .......
+            p.msg.msg-cn
+                | NULL
+        .dialog.dialog-snake
+            em.name.name-snake
+                | Snake
+                span :
+            p.msg.msg-en
+                | Why did you try to hide it?
+            p.msg.msg-cn
+                | NULL
+        .dialog
+            em.name.name-campbell
+                | Campbell
+                span :
+            p.msg.msg-en
+                | ...I'm sorry...
+            p.msg.msg-cn
+                | NULL
+        .dialog.dialog-snake
+            em.name.name-snake
+                | Snake
+                span :
+            p.msg.msg-en
+                | Can't tell the grunts, huh?  ...You've changed a lot.  Metal Gear... secret advanced nuclear weapons research...  Does the White House know about this?  How deep does it go?
+            p.msg.msg-cn
+                | NULL
+        .dialog
+            em.name.name-campbell
+                | Campbell
+                span :
+            p.msg.msg-en
+                | As far as I know, as of yesterday, the President had not  been briefed about the Rex Project.
+            p.msg.msg-cn
+                | NULL
+        .dialog.dialog-snake
+            em.name.name-snake
+                | Snake
+                span :
+            p.msg.msg-en
+                | "Need to know basis", is that the idea?
+            p.msg.msg-cn
+                | NULL
+        .dialog
+            em.name.name-campbell
+                | Campbell
+                span :
+            p.msg.msg-en
+                | These are sensitive times.  Even sub-critical nuclear tests are causing quite a stir.
+            p.msg.msg-cn
+                | NULL
+        .dialog.dialog-snake
+            em.name.name-snake
+                | Snake
+                span :
+            p.msg.msg-en
+                | Plausible deniability, huh?
+            p.msg.msg-cn
+                | NULL
+        .dialog
+            em.name.name-campbell
+                | Campbell
+                span :
+            p.msg.msg-en
+                | Yes.  And tomorrow the President and his Russian counterpart are scheduled to sign the Start 3 Accord.
+            p.msg.msg-cn
+                | NULL
+        .dialog.dialog-snake
+            em.name.name-snake
+                | Snake
+                span :
+            p.msg.msg-en
+                | I get it.  That's the reason for the deadline.
+            p.msg.msg-cn
+                | NULL
+        .dialog
+            em.name.name-naomi
+                | Naomi
+                span :
+            p.msg.msg-en
+                | That's right, Snake.  And that's why we can't let the terrorist attack go public.
+            p.msg.msg-cn
+                | NULL
+        .dialog
+            em.name.name-campbell
+                | Campbell
+                span :
+            p.msg.msg-en
+                | We still haven't even ratified Start 2 or dealt with the issue of TMDs.  This has to do with the Presodent's reputation and America's place as the dominant superpower.
+            p.msg.msg-cn
+                | NULL
+        .dialog.dialog-snake
+            em.name.name-snake
+                | Snake
+                span :
+            p.msg.msg-en
+                | So patriotism is your excuse for circumventing the Constitution?
+            p.msg.msg-cn
+                | NULL
+        .dialog
+            em.name.name-campbell
+                | Campbell
+                span :
+            p.msg.msg-en
+                | Please, Snake... just stop them.
+            p.msg.msg-cn
+                | NULL
+        .dialog.dialog-snake
+            em.name.name-snake
+                | Snake
+                span :
+            p.msg.msg-en
+                | Why should I?
+            p.msg.msg-cn
+                | NULL
+        .dialog
+            em.name.name-campbell
+                | Campbell
+                span :
+            p.msg.msg-en
+                | Because you're the only one who can.
+            p.msg.msg-cn
+                | NULL
+        .dialog.dialog-snake
+            em.name.name-snake
+                | Snake
+                span :
+            p.msg.msg-en
+                | In that case, tell me the truth about this new type of nuclear warhead.
+            p.msg.msg-cn
+                | NULL
+        .dialog
+            em.name.name-campbell
+                | Campbell
+                span :
+            p.msg.msg-en
+                | I told you before.  I don't knwo the details.
+            p.msg.msg-cn
+                | NULL
+        .dialog.dialog-snake
+            em.name.name-snake
+                | Snake
+                span :
+            p.msg.msg-en
+                | I don't believe you.If the situation is so serious, why don't you give in to their demands?  Let them have Big Boss's remains.
+            p.msg.msg-cn
+                | NULL
+        .dialog
+            em.name.name-campbell
+                | Campbell
+                span :
+            p.msg.msg-en
+                | You see...
+            p.msg.msg-cn
+                | NULL
+        .dialog.dialog-snake
+            em.name.name-snake
+                | Snake
+                span :
+            p.msg.msg-en
+                | Or is there some reason that you can't do that?  Something you haven't told me about?
+            p.msg.msg-cn
+                | NULL
+        .dialog
+            em.name.name-naomi
+                | Naomi
+                span :
+            p.msg.msg-en
+                | Publicly, the President has been very vocal in his opposition to eugenics experiments.  We don't want the existance of the Genome Army to go public.
+            p.msg.msg-cn
+                | NULL
+        .dialog.dialog-snake
+            em.name.name-snake
+                | Snake
+                span :
+            p.msg.msg-en
+                | And that's the only reason?
+            p.msg.msg-cn
+                | NULL
+        .dialog
+            em.name.name-campbell
+                | Campbell
+                span :
+            p.msg.msg-en
+                | .......
+            p.msg.msg-cn
+                | NULL
+        .dialog.dialog-snake
+            em.name.name-snake
+                | Snake
+                span :
+            p.msg.msg-en
+                | Huh!  The hell with you!
+            p.msg.msg-cn
+                | NULL
+        .dialog
+            em.name.name-campbell
+                | Campbell
+                span :
+            p.msg.msg-en
+                | I'm sorry.
+            p.msg.msg-cn
+                | NULL
+        .dialog.dialog-snake
+            em.name.name-snake
+                | Snake
+                span :
+            p.msg.msg-en
+                | The corpse of the DARPA Chief is lying right here next to me.
+            p.msg.msg-cn
+                | NULL
+        .dialog
+            em.name.name-naomi
+                | Naomi
+                span :
+            p.msg.msg-en
+                | Poor man.
+            p.msg.msg-cn
+                | NULL
+        .dialog.dialog-snake
+            em.name.name-snake
+                | Snake
+                span :
+            p.msg.msg-en
+                | But it's strange.  He looks and smells like he's been dead for days. All his blood's been drained out too.
+            p.msg.msg-cn
+                | NULL
+        .dialog
+            em.name.name-campbell
+                | Campbell
+                span :
+            p.msg.msg-en
+                | Drained!?
+            p.msg.msg-cn
+                | NULL
+        .dialog
+            em.name.name-naomi
+                | Naomi
+                span :
+            p.msg.msg-en
+                | Maybe to slow down decomposition?
+            p.msg.msg-cn
+                | NULL
+        .dialog.dialog-snake
+            em.name.name-snake
+                | Snake
+                span :
+            p.msg.msg-en
+                | I have no idea.
+            p.msg.msg-cn
+                | NULL
+        .dialog
+            em.name.name-naomi
+                | Naomi
+                span :
+            p.msg.msg-en
+                | But the Chief only died a few hours ago, right?
+            p.msg.msg-cn
+                | NULL
+        .dialog.dialog-snake
+            em.name.name-snake
+                | Snake
+                span :
+            p.msg.msg-en
+                | Right.  But he's already started to decompose.
+            p.msg.msg-cn
+                | NULL
+        .dialog
+            em.name.name-naomi
+                | Naomi
+                span :
+            p.msg.msg-en
+                | What could it all be about?
+            p.msg.msg-cn
+                | NULL
+        .dialog.dialog-snake
+            em.name.name-snake
+                | Snake
+                span :
+            p.msg.msg-en
+                | SOmething in his blood that they wanted?
+            p.msg.msg-cn
+                | NULL
+        .dialog
+            em.name.name-naomi
+                | Naomi
+                span :
+            p.msg.msg-en
+                | I doubt it.  Just the nanomachines and the transmitter.
+            p.msg.msg-cn
+                | NULL
+        .dialog
+            em.name.name-campbell
+                | Campbell
+                span :
+            p.msg.msg-en
+                | Did the Chief tell them his detonation code?
+            p.msg.msg-cn
+                | NULL
+        .dialog.dialog-snake
+            em.name.name-snake
+                | Snake
+                span :
+            p.msg.msg-en
+                | I'm afraid so.  It looks like they've got both codes and are nearly ready to launch.
+            p.msg.msg-cn
+                | NULL
+        .dialog
+            em.name.name-campbell
+                | Campbell
+                span :
+            p.msg.msg-en
+                | Damn.  Is there any way to prevent it?
+            p.msg.msg-cn
+                | NULL
+        .dialog.dialog-snake
+            em.name.name-snake
+                | Snake
+                span :
+            p.msg.msg-en
+                | It seems there's some type of emergency override device that can cancel out the detonation code.  It's a countermeasure that ArmsTech installed secretly.  You have to unlock it with three special card keys.
+            p.msg.msg-cn
+                | NULL
+        .dialog
+            em.name.name-campbell
+                | Campbell
+                span :
+            p.msg.msg-en
+                | And where are those keys?
+            p.msg.msg-cn
+                | NULL
+        .dialog.dialog-snake
+            em.name.name-snake
+                | Snake
+                span :
+            p.msg.msg-en
+                | I've got one of them.  I don't know where the other two are. Besides, I'm locked up here.
+            p.msg.msg-cn
+                | NULL
+        .dialog
+            em.name.name-campbell
+                | Campbell
+                span :
+            p.msg.msg-en
+                | We've got no choice.  Forget about the keys.  Your top priority now is to destroy Metal Gear itself.  Sorry to lay it all in your lap, but you're all I've got.  Bust out of there and get to the Communications Tower.
+            p.msg.msg-cn
+                | NULL
+        .dialog
+            em.name.name-naomi
+                | Naomi
+                span :
+            p.msg.msg-en
+                | .......
+            p.msg.msg-cn
+                | NULL
+        .dialog.dialog-snake
+            em.name.name-snake
+                | Snake
+                span :
+            p.msg.msg-en
+                | .......  Naomi, please talk to me.  Say something to take my mind off the pain.
+            p.msg.msg-cn
+                | NULL
+        .dialog
+            em.name.name-naomi
+                | Naomi
+                span :
+            p.msg.msg-en
+                | What can I say?
+            p.msg.msg-cn
+                | NULL
+        .dialog.dialog-snake
+            em.name.name-snake
+                | Snake
+                span :
+            p.msg.msg-en
+                | Anything.
+            p.msg.msg-cn
+                | NULL
+        .dialog
+            em.name.name-naomi
+                | Naomi
+                span :
+            p.msg.msg-en
+                | I...I'm not a very good talker.
+            p.msg.msg-cn
+                | NULL
+        .dialog.dialog-snake
+            em.name.name-snake
+                | Snake
+                span :
+            p.msg.msg-en
+                | Please... tell me about yourself.
+            p.msg.msg-cn
+                | NULL
+        .dialog
+            em.name.name-naomi
+                | Naomi
+                span :
+            p.msg.msg-en
+                | Myself?  That's a tough one...
+            p.msg.msg-cn
+                | NULL
+        .dialog.dialog-snake
+            em.name.name-snake
+                | Snake
+                span :
+            p.msg.msg-en
+                | Any family?
+            p.msg.msg-cn
+                | NULL
+        .dialog
+            em.name.name-naomi
+                | Naomi
+                span :
+            p.msg.msg-en
+                | That's not a very happy topic for me.
+            p.msg.msg-cn
+                | NULL
+        .dialog.dialog-snake
+            em.name.name-snake
+                | Snake
+                span :
+            p.msg.msg-en
+                | I don't have any family.  No wait, there was a man who said he was my father...
+            p.msg.msg-cn
+                | NULL
+        .dialog
+            em.name.name-naomi
+                | Naomi
+                span :
+            p.msg.msg-en
+                | Where is he?
+            p.msg.msg-cn
+                | NULL
+        .dialog.dialog-snake
+            em.name.name-snake
+                | Snake
+                span :
+            p.msg.msg-en
+                | Dead.  By my own hand.
+            p.msg.msg-cn
+                | NULL
+        .dialog
+            em.name.name-campbell
+                | Campbell
+                span :
+            p.msg.msg-en
+                | Big Boss.
+            p.msg.msg-cn
+                | NULL
+        .dialog
+            em.name.name-naomi
+                | Naomi
+                span :
+            p.msg.msg-en
+                | What!? Big Boss!?  I had no idea.
+            p.msg.msg-cn
+                | NULL
+        .dialog
+            em.name.name-campbell
+                | Campbell
+                span :
+            p.msg.msg-en
+                | There was no way you could.  It happened in Zanzibar 6 years ago. Only Snake and I know the real truth of what happened there.
+            p.msg.msg-cn
+                | NULL
+        .dialog
+            em.name.name-naomi
+                | Naomi
+                span :
+            p.msg.msg-en
+                | So, is it true?  Was Big Boss really your father?
+            p.msg.msg-cn
+                | NULL
+        .dialog.dialog-snake
+            em.name.name-snake
+                | Snake
+                span :
+            p.msg.msg-en
+                | That's what he said.  That's all I know.
+            p.msg.msg-cn
+                | NULL
+        .dialog
+            em.name.name-naomi
+                | Naomi
+                span :
+            p.msg.msg-en
+                | And you were able to kill him, knowing that?
+            p.msg.msg-cn
+                | NULL
+        .dialog.dialog-snake
+            em.name.name-snake
+                | Snake
+                span :
+            p.msg.msg-en
+                | Yup.
+            p.msg.msg-cn
+                | NULL
+        .dialog
+            em.name.name-naomi
+                | Naomi
+                span :
+            p.msg.msg-en
+                | How?
+            p.msg.msg-cn
+                | NULL
+        .dialog.dialog-snake
+            em.name.name-snake
+                | Snake
+                span :
+            p.msg.msg-en
+                | He wanted it.  Besides, some people just need killing...
+            p.msg.msg-cn
+                | NULL
+        .dialog
+            em.name.name-naomi
+                | Naomi
+                span :
+            p.msg.msg-en
+                | That's patricide.
+            p.msg.msg-cn
+                | NULL
+        .dialog.dialog-snake
+            em.name.name-snake
+                | Snake
+                span :
+            p.msg.msg-en
+                | Yup.  That's the trauma that Mantis was talking about.  The one we share in common.
+            p.msg.msg-cn
+                | NULL
+        .dialog
+            em.name.name-naomi
+                | Naomi
+                span :
+            p.msg.msg-en
+                | Is that why you left FOX-HOUND?
+            p.msg.msg-cn
+                | NULL
+        .dialog.dialog-snake
+            em.name.name-snake
+                | Snake
+                span :
+            p.msg.msg-en
+                | Let's just say that I needed to be alone for a while and Alaska was the perfect place...
+            p.msg.msg-cn
+                | NULL
+        .dialog
+            em.name.name-naomi
+                | Naomi
+                span :
+            p.msg.msg-en
+                | ...Snake... I didn't have a real family either.  Just a big brother who put me through school.  We weren't even blood-related and he was much older than me.
+            p.msg.msg-cn
+                | NULL
+        .dialog.dialog-snake
+            em.name.name-snake
+                | Snake
+                span :
+            p.msg.msg-en
+                | Where is he?
+            p.msg.msg-cn
+                | NULL
+        .dialog
+            em.name.name-naomi
+                | Naomi
+                span :
+            p.msg.msg-en
+                | He's dead...
+            p.msg.msg-cn
+                | NULL
+        .dialog.dialog-snake
+            em.name.name-snake
+                | Snake
+                span :
+            p.msg.msg-en
+                | I'm sorry.
+            p.msg.msg-cn
+                | NULL
+        .dialog
+            em.name.name-naomi
+                | Naomi
+                span :
+            p.msg.msg-en
+                | ...Snake, is there a woman in your life?
+            p.msg.msg-cn
+                | NULL
+        .dialog.dialog-snake
+            em.name.name-snake
+                | Snake
+                span :
+            p.msg.msg-en
+                | After you've been through as many wars as me, it's hard to trust anyone.
+            p.msg.msg-cn
+                | NULL
+        .dialog
+            em.name.name-naomi
+                | Naomi
+                span :
+            p.msg.msg-en
+                | Friends?
+            p.msg.msg-cn
+                | NULL
+        .dialog.dialog-snake
+            em.name.name-snake
+                | Snake
+                span :
+            p.msg.msg-en
+                | Roy Campbell...
+            p.msg.msg-cn
+                | NULL
+        .dialog
+            em.name.name-campbell
+                | Campbell
+                span :
+            p.msg.msg-en
+                | Huh?  You're still calling me friend?
+            p.msg.msg-cn
+                | NULL
+        .dialog
+            em.name.name-naomi
+                | Naomi
+                span :
+            p.msg.msg-en
+                | Is that it?
+            p.msg.msg-cn
+                | NULL
+        .dialog.dialog-snake
+            em.name.name-snake
+                | Snake
+                span :
+            p.msg.msg-en
+                | No, there was another... Frank Jaeger.
+            p.msg.msg-cn
+                | NULL
+        .dialog
+            em.name.name-naomi
+                | Naomi
+                span :
+            p.msg.msg-en
+                | What!?
+            p.msg.msg-cn
+                | NULL
+        .dialog
+            em.name.name-campbell
+                | Campbell
+                span :
+            p.msg.msg-en
+                | Big Boss's most trusted lietenant and the only member of FOX-HOUND to ever recieve the codename "Fox".  Gray Fox.
+            p.msg.msg-cn
+                | NULL
+        .dialog
+            em.name.name-naomi
+                | Naomi
+                span :
+            p.msg.msg-en
+                | ........
+            p.msg.msg-cn
+                | NULL
+        .dialog.dialog-snake
+            em.name.name-snake
+                | Snake
+                span :
+            p.msg.msg-en
+                | I learned a lot from him.
+            p.msg.msg-cn
+                | NULL
+        .dialog
+            em.name.name-naomi
+                | Naomi
+                span :
+            p.msg.msg-en
+                | But... didn't you try to kill each other?
+            p.msg.msg-cn
+                | NULL
+        .dialog.dialog-snake
+            em.name.name-snake
+                | Snake
+                span :
+            p.msg.msg-en
+                | That's true.  We did.  In Zanzibar.  But it was nothing personal. We were just proffesionals on opposite sides, that's all.
+            p.msg.msg-cn
+                | NULL
+        .dialog
+            em.name.name-naomi
+                | Naomi
+                span :
+            p.msg.msg-en
+                | And you still call yourselves friends?
+            p.msg.msg-cn
+                | NULL
+        .dialog.dialog-snake
+            em.name.name-snake
+                | Snake
+                span :
+            p.msg.msg-en
+                | Hard to believe?  War is no reason to end a friendship.
+            p.msg.msg-cn
+                | NULL
+        .dialog
+            em.name.name-naomi
+                | Naomi
+                span :
+            p.msg.msg-en
+                | That's insane.
+            p.msg.msg-cn
+                | NULL
+        .dialog.dialog-snake
+            em.name.name-snake
+                | Snake
+                span :
+            p.msg.msg-en
+                | I first met him on the battlefield.  He was being held a prisoner of Outer Heaven.  But he didn't look like a prisoner to me.  He was always so cool and precise.  I was still green and he showed me the ropes.
+            p.msg.msg-cn
+                | NULL
+        .dialog
+            em.name.name-naomi
+                | Naomi
+                span :
+            p.msg.msg-en
+                | You knew him well?
+            p.msg.msg-cn
+                | NULL
+        .dialog.dialog-snake
+            em.name.name-snake
+                | Snake
+                span :
+            p.msg.msg-en
+                | No.  We never talked about our personal lives.  Sort of an unwritten rule.  The nest time I saw him on the battlefield, we were enemies.  We were fighting barehanded in a minefield.  I know it sounds strange to most people.  But we were just two soldiers doing our jobs.  It's like a sport.
+            p.msg.msg-cn
+                | NULL
+        .dialog
+            em.name.name-naomi
+                | Naomi
+                span :
+            p.msg.msg-en
+                | Men and their games!  You're like wild animals!
+            p.msg.msg-cn
+                | NULL
+        .dialog.dialog-snake
+            em.name.name-snake
+                | Snake
+                span :
+            p.msg.msg-en
+                | You're right.  We are animals.
+            p.msg.msg-cn
+                | NULL
+        .dialog
+            em.name.name-naomi
+                | Naomi
+                span :
+            p.msg.msg-en
+                | So if you were friends, then how do you explain the Ninja's behavior?
+            p.msg.msg-cn
+                | NULL
+        .dialog.dialog-snake
+            em.name.name-snake
+                | Snake
+                span :
+            p.msg.msg-en
+                | I don't know.
+            p.msg.msg-cn
+                | NULL
+        .dialog
+            em.name.name-naomi
+                | Naomi
+                span :
+            p.msg.msg-en
+                | It's your genes... they make you predisposed towards violence!
+            p.msg.msg-cn
+                | NULL
+        .dialog.dialog-snake
+            em.name.name-snake
+                | Snake
+                span :
+            p.msg.msg-en
+                | You really like talking about genes, Naomi.  Why did you get into genetic research anyway?
+            p.msg.msg-cn
+                | NULL
+        .dialog
+            em.name.name-naomi
+                | Naomi
+                span :
+            p.msg.msg-en
+                | I never knew who my parents were or even what they looked like. I guess I got into genetics because I wanted to figure out why I'm the way I am.
+            p.msg.msg-cn
+                | NULL
+        .dialog.dialog-snake
+            em.name.name-snake
+                | Snake
+                span :
+            p.msg.msg-en
+                | So you studied about DNA?
+            p.msg.msg-cn
+                | NULL
+        .dialog
+            em.name.name-naomi
+                | Naomi
+                span :
+            p.msg.msg-en
+                | Yeah.  I thought if I studied my genetic structure, I'd find out who I really was.  I thought that by analyzing a person's genetic information, I could retrieve the blank spots in that person's memory.
+            p.msg.msg-cn
+                | NULL
+        .dialog.dialog-snake
+            em.name.name-snake
+                | Snake
+                span :
+            p.msg.msg-en
+                | Memory is stored in DNA?
+            p.msg.msg-cn
+                | NULL
+        .dialog
+            em.name.name-naomi
+                | Naomi
+                span :
+            p.msg.msg-en
+                | We're not sure.  But we know that a person's genetic fate is determined just by the sequence of the four bases in their DNA.
+            p.msg.msg-cn
+                | NULL
+        .dialog.dialog-snake
+            em.name.name-snake
+                | Snake
+                span :
+            p.msg.msg-en
+                | So what about my fate? You know my DNA sequence, don't you?
+            p.msg.msg-cn
+                | NULL
+        .dialog
+            em.name.name-naomi
+                | Naomi
+                span :
+            p.msg.msg-en
+                | Your fate?  I...I'm sorry.  I have no idea.
+            p.msg.msg-cn
+                | NULL
+        .dialog.dialog-snake
+            em.name.name-snake
+                | Snake
+                span :
+            p.msg.msg-en
+                | Of course not.  You're a scientist, not a fortune-teller.
+            p.msg.msg-cn
+                | NULL
+        .dialog
+            em.name.name-naomi
+                | Naomi
+                span :
+            p.msg.msg-en
+                | ......... (Snake ends his talk with Naomi and calls Otacon.)
+            p.msg.msg-cn
+                | NULL
+        .dialog.dialog-snake
+            em.name.name-snake
+                | Snake
+                span :
+            p.msg.msg-en
+                | Otacon, are you still okay?
+            p.msg.msg-cn
+                | NULL
+        .dialog
+            em.name.name-otacon
+                | Otacon
+                span :
+            p.msg.msg-en
+                | Yeah.  Thanks to the stealth camouflage, that is.
+            p.msg.msg-cn
+                | NULL
+        .dialog.dialog-snake
+            em.name.name-snake
+                | Snake
+                span :
+            p.msg.msg-en
+                | I have a favor to ask.  I need your help.
+            p.msg.msg-cn
+                | NULL
+        .dialog
+            em.name.name-otacon
+                | Otacon
+                span :
+            p.msg.msg-en
+                | I was wondering when you'd ask.  What should I do?
+            p.msg.msg-cn
+                | NULL
+        .dialog.dialog-snake
+            em.name.name-snake
+                | Snake
+                span :
+            p.msg.msg-en
+                | I've been captured.  I'm locked up here in this cell.
+            p.msg.msg-cn
+                | NULL
+        .dialog
+            em.name.name-otacon
+                | Otacon
+                span :
+            p.msg.msg-en
+                | What cell?
+            p.msg.msg-cn
+                | NULL
+        .dialog.dialog-snake
+            em.name.name-snake
+                | Snake
+                span :
+            p.msg.msg-en
+                | There's a big torture machine nearby.
+            p.msg.msg-cn
+                | NULL
+        .dialog
+            em.name.name-otacon
+                | Otacon
+                span :
+            p.msg.msg-en
+                | Okay.  I know it.  It's close.  I'll be there right away.
+            p.msg.msg-cn
+                | NULL
+        .dialog.dialog-snake
+            em.name.name-snake
+                | Snake
+                span :
+            p.msg.msg-en
+                | Thanks. (Snake waits for Otacon to arrive.  The guard who si watching Snake has a bowel attack.)
+            p.msg.msg-cn
+                | NULL
+        .dialog
+            em.name.name-guard
+                | Guard
+                span :
+            p.msg.msg-en
+                | Aaachoo!  That witch!  She took my clothes!  Oh... my stomach. (The guard goes to the bathroom.)
+            p.msg.msg-cn
+                | NULL
+        .dialog
+            em.name.name-otacon
+                | Otacon
+                span :
+            p.msg.msg-en
+                | Hey! I'm here! (Snake looks around but doesn't see anybody.)
+            p.msg.msg-cn
+                | NULL
+        .dialog.dialog-snake
+            em.name.name-snake
+                | Snake
+                span :
+            p.msg.msg-en
+                | Where?
+            p.msg.msg-cn
+                | NULL
+        .dialog
+            em.name.name-otacon
+                | Otacon
+                span :
+            p.msg.msg-en
+                | Here. (Otacon takes off his stealth camouflage.  He is by the cell door.)
+            p.msg.msg-cn
+                | NULL
+        .dialog
+            em.name.name-otacon
+                | Otacon
+                span :
+            p.msg.msg-en
+                | It's me.
+            p.msg.msg-cn
+                | NULL
+        .dialog.dialog-snake
+            em.name.name-snake
+                | Snake
+                span :
+            p.msg.msg-en
+                | Otacon!
+            p.msg.msg-cn
+                | NULL
+        .dialog
+            em.name.name-otacon
+                | Otacon
+                span :
+            p.msg.msg-en
+                | Wow!  They even captured you! (Snake grabs Otacon and shakes him.)
+            p.msg.msg-cn
+                | NULL
+        .dialog.dialog-snake
+            em.name.name-snake
+                | Snake
+                span :
+            p.msg.msg-en
+                | Hurry!  Get me out of here!
+            p.msg.msg-cn
+                | NULL
+        .dialog
+            em.name.name-otacon
+                | Otacon
+                span :
+            p.msg.msg-en
+                | Let me go!  That hurts!
+            p.msg.msg-cn
+                | NULL
+        .dialog.dialog-snake
+            em.name.name-snake
+                | Snake
+                span :
+            p.msg.msg-en
+                | Hurry up!
+            p.msg.msg-cn
+                | NULL
+        .dialog
+            em.name.name-otacon
+                | Otacon
+                span :
+            p.msg.msg-en
+                | Is that how you ask a guy a favor?  Let me go.  Jeez, it's like an animal's cage.  ...What a smell! (Snake points to the DARPA Chief.)
+            p.msg.msg-cn
+                | NULL
+        .dialog.dialog-snake
+            em.name.name-snake
+                | Snake
+                span :
+            p.msg.msg-en
+                | Because of him.
+            p.msg.msg-cn
+                | NULL
+        .dialog
+            em.name.name-otacon
+                | Otacon
+                span :
+            p.msg.msg-en
+                | Eeyaaah!  It's the DARPA Chief!!
+            p.msg.msg-cn
+                | NULL
+        .dialog.dialog-snake
+            em.name.name-snake
+                | Snake
+                span :
+            p.msg.msg-en
+                | If you don't hurry up and get me out of here, I'll be laying next to him.
+            p.msg.msg-cn
+                | NULL
+        .dialog
+            em.name.name-otacon
+                | Otacon
+                span :
+            p.msg.msg-en
+                | Those bastards!  This lock won't open up with a security card.  You need a key like the soldiers carry.
+            p.msg.msg-cn
+                | NULL
+        .dialog.dialog-snake
+            em.name.name-snake
+                | Snake
+                span :
+            p.msg.msg-en
+                | So what are you doing here then? (Otacon reaches into his coat and pulls two objects out.)
+            p.msg.msg-cn
+                | NULL
+        .dialog
+            em.name.name-otacon
+                | Otacon
+                span :
+            p.msg.msg-en
+                | I... I thought you might be hungry.  If you need more food, I can bring some more later. (He has ketchup and a hamburger.)
+            p.msg.msg-cn
+                | NULL
+        .dialog
+            em.name.name-otacon
+                | Otacon
+                span :
+            p.msg.msg-en
+                | Also, I got this level 6 card, it'll get you out of that torture room. Here... take this too. (Otacon takes yet another thing out of his coat.)
+            p.msg.msg-cn
+                | NULL
+        .dialog.dialog-snake
+            em.name.name-snake
+                | Snake
+                span :
+            p.msg.msg-en
+                | What's that.
+            p.msg.msg-cn
+                | NULL
+        .dialog
+            em.name.name-otacon
+                | Otacon
+                span :
+            p.msg.msg-en
+                | It's a hankerchief.  I got it from Sniper Wolf.
+            p.msg.msg-cn
+                | NULL
+        .dialog.dialog-snake
+            em.name.name-snake
+                | Snake
+                span :
+            p.msg.msg-en
+                | Why?
+            p.msg.msg-cn
+                | NULL
+        .dialog
+            em.name.name-otacon
+                | Otacon
+                span :
+            p.msg.msg-en
+                | I don't know why, but she's nice to me.
+            p.msg.msg-cn
+                | NULL
+        .dialog.dialog-snake
+            em.name.name-snake
+                | Snake
+                span :
+            p.msg.msg-en
+                | Sounds like Stockholm Syndrome to me.
+            p.msg.msg-cn
+                | NULL
+        .dialog
+            em.name.name-otacon
+                | Otacon
+                span :
+            p.msg.msg-en
+                | I was taking care of the dogs here.  After the terrorists take over, they were planning to shoot all the dogs.  But Sniper Wolf stopped them... she even let me feed them when I asked.  She likes dogs.  She must be a good person.  Please don't hurt her.
+            p.msg.msg-cn
+                | NULL
+        .dialog.dialog-snake
+            em.name.name-snake
+                | Snake
+                span :
+            p.msg.msg-en
+                | Wake up you idiot!  She's the one who shot Meryl!
+            p.msg.msg-cn
+                | NULL
+        .dialog
+            em.name.name-otacon
+                | Otacon
+                span :
+            p.msg.msg-en
+                | Well, that's all I can do...
+            p.msg.msg-cn
+                | NULL
+        .dialog.dialog-snake
+            em.name.name-snake
+                | Snake
+                span :
+            p.msg.msg-en
+                | They're planning to launch a nuke!  I've got to stop them!
+            p.msg.msg-cn
+                | NULL
+        .dialog
+            em.name.name-otacon
+                | Otacon
+                span :
+            p.msg.msg-en
+                | Then you'll have to get past the Communications Tower.
+            p.msg.msg-cn
+                | NULL
+        .dialog.dialog-snake
+            em.name.name-snake
+                | Snake
+                span :
+            p.msg.msg-en
+                | First, you have to get me out of here!
+            p.msg.msg-cn
+                | NULL
+        .dialog
+            em.name.name-otacon
+                | Otacon
+                span :
+            p.msg.msg-en
+                | C'mon...I'm trying my best...
+            p.msg.msg-cn
+                | NULL
+        .dialog.dialog-snake
+            em.name.name-snake
+                | Snake
+                span :
+            p.msg.msg-en
+                | That guard's got the key.  You'll have to take him out!
+            p.msg.msg-cn
+                | NULL
+        .dialog
+            em.name.name-otacon
+                | Otacon
+                span :
+            p.msg.msg-en
+                | Gimme a break!  I'm no soldier!  I can't take anybody out!
+            p.msg.msg-cn
+                | NULL
+        .dialog.dialog-snake
+            em.name.name-snake
+                | Snake
+                span :
+            p.msg.msg-en
+                | You have to!!
+            p.msg.msg-cn
+                | NULL
+        .dialog
+            em.name.name-otacon
+                | Otacon
+                span :
+            p.msg.msg-en
+                | I'll be killed! (The guard opens the bathroom door.)
+            p.msg.msg-cn
+                | NULL
+        .dialog
+            em.name.name-otacon
+                | Otacon
+                span :
+            p.msg.msg-en
+                | Oh jeez.  He's coming back... see ya later... (Otacon turns and leaves.)
+            p.msg.msg-cn
+                | NULL
+        .dialog.dialog-snake
+            em.name.name-snake
+                | Snake
+                span :
+            p.msg.msg-en
+                | Wait! (Snake waits for the guard to come back.  He breaks the ketchup bottle and uses it to make fake blood.  The guard is alerted.)
+            p.msg.msg-cn
+                | NULL
+        .dialog
+            em.name.name-guard
+                | Guard
+                span :
+            p.msg.msg-en
+                | What the hell! (The guard rushes into the cell and Snake quickly takes him out.  After getting all his stuff Snake heads for the Communications Tower.  Snake gets to the spot where Meryl was shot.  He stops and thinks back.) (Meryl is shot in both legs.  She collapses to the ground.  Meryl tries to reach her gun beside her.  The sniper acts quickly and shoots her in the arm.)
+            p.msg.msg-cn
+                | NULL
+        .dialog
+            em.name.name-meryl
+                | Meryl
+                span :
+            p.msg.msg-en
+                | Aaaaaaaaahhhh!!! (She collapses in a pool of blood and tries to reach her gun beside her.  The sniper acts quickly and shoots her in the arm.)
+            p.msg.msg-cn
+                | NULL
+        .dialog
+            em.name.name-meryl
+                | Meryl
+                span :
+            p.msg.msg-en
+                | Aaaaaaaghhhh!!! (Meryl gives up and lies on her back, bleeding badly.  Snake tries to move towards her, but he is met by a bullet that hist the wall right near him.)
+            p.msg.msg-cn
+                | NULL
+        .dialog
+            em.name.name-meryl
+                | Meryl
+                span :
+            p.msg.msg-en
+                | Snake.... leave me and run...
+            p.msg.msg-cn
+                | NULL
+        .dialog.dialog-snake
+            em.name.name-snake
+                | Snake
+                span :
+            p.msg.msg-en
+                | Meryl...
+            p.msg.msg-cn
+                | NULL
+        .dialog
+            em.name.name-meryl
+                | Meryl
+                span :
+            p.msg.msg-en
+                | I guess... I am a rookie after all...
+            p.msg.msg-cn
+                | NULL
+        .dialog.dialog-snake
+            em.name.name-snake
+                | Snake
+                span :
+            p.msg.msg-en
+                | Don't worry, Meryl.  It's me they want.
+            p.msg.msg-cn
+                | NULL
+        .dialog
+            em.name.name-meryl
+                | Meryl
+                span :
+            p.msg.msg-en
+                | Even I know that, it's the oldest trick in the book.  The sniper's using me for bait to lure you out.
+            p.msg.msg-cn
+                | NULL
+        .dialog.dialog-snake
+            em.name.name-snake
+                | Snake
+                span :
+            p.msg.msg-en
+                | Damn!!
+            p.msg.msg-cn
+                | NULL
+        .dialog
+            em.name.name-meryl
+                | Meryl
+                span :
+            p.msg.msg-en
+                | Shoot me, Snake!!
+            p.msg.msg-cn
+                | NULL
+        .dialog.dialog-snake
+            em.name.name-snake
+                | Snake
+                span :
+            p.msg.msg-en
+                | No!
+            p.msg.msg-cn
+                | NULL
+        .dialog
+            em.name.name-meryl
+                | Meryl
+                span :
+            p.msg.msg-en
+                | My gun... I can't reach it by myself.
+            p.msg.msg-cn
+                | NULL
+        .dialog.dialog-snake
+            em.name.name-snake
+                | Snake
+                span :
+            p.msg.msg-en
+                | Don't move!
+            p.msg.msg-cn
+                | NULL
+        .dialog
+            em.name.name-meryl
+                | Meryl
+                span :
+            p.msg.msg-en
+                | I promised... I wouldn't slow you down!  I... I... I can still help... I want to help you!
+            p.msg.msg-cn
+                | NULL
+        .dialog.dialog-snake
+            em.name.name-snake
+                | Snake
+                span :
+            p.msg.msg-en
+                | Quiet down!  Save your strength!
+            p.msg.msg-cn
+                | NULL
+        .dialog
+            em.name.name-meryl
+                | Meryl
+                span :
+            p.msg.msg-en
+                | I was a fool, I wanted to be a soldier.  But war is ugly... There's nothing glamorous about it.  Snake, please!  Save yourself.  Go on living and don't give up on people!  Don't forget me... (Campbell calls on the Codec.)
+            p.msg.msg-cn
+                | NULL
+        .dialog
+            em.name.name-campbell
+                | Campbell
+                span :
+            p.msg.msg-en
+                | Snake, about Meryl...
+            p.msg.msg-cn
+                | NULL
+        .dialog.dialog-snake
+            em.name.name-snake
+                | Snake
+                span :
+            p.msg.msg-en
+                | Colonel, I'm sorry...
+            p.msg.msg-cn
+                | NULL
+        .dialog
+            em.name.name-campbell
+                | Campbell
+                span :
+            p.msg.msg-en
+                | Listen to me.
+            p.msg.msg-cn
+                | NULL
+        .dialog.dialog-snake
+            em.name.name-snake
+                | Snake
+                span :
+            p.msg.msg-en
+                | I wasn't able to protect her.
+            p.msg.msg-cn
+                | NULL
+        .dialog
+            em.name.name-campbell
+                | Campbell
+                span :
+            p.msg.msg-en
+                | Snake, it's okay.  You did what you could, now let it rest.
+            p.msg.msg-cn
+                | NULL
+        .dialog.dialog-snake
+            em.name.name-snake
+                | Snake
+                span :
+            p.msg.msg-en
+                | Colonel...
+            p.msg.msg-cn
+                | NULL
+        .dialog
+            em.name.name-campbell
+                | Campbell
+                span :
+            p.msg.msg-en
+                | She joined up of her own free will.  I'm sure she was prepared for this.
+            p.msg.msg-cn
+                | NULL
+        .dialog.dialog-snake
+            em.name.name-snake
+                | Snake
+                span :
+            p.msg.msg-en
+                | No.  You're wrong.
+            p.msg.msg-cn
+                | NULL
+        .dialog
+            em.name.name-campbell
+                | Campbell
+                span :
+            p.msg.msg-en
+                | ...?
+            p.msg.msg-cn
+                | NULL
+        .dialog.dialog-snake
+            em.name.name-snake
+                | Snake
+                span :
+            p.msg.msg-en
+                | Meryl thought she had to become a soldier... thought it was the only way.  She said she thought it woul;d bring her closer to her dead father.
+            p.msg.msg-cn
+                | NULL
+        .dialog
+            em.name.name-campbell
+                | Campbell
+                span :
+            p.msg.msg-en
+                | She said that!?
+            p.msg.msg-cn
+                | NULL
+        .dialog.dialog-snake
+            em.name.name-snake
+                | Snake
+                span :
+            p.msg.msg-en
+                | She wasn't ready for real combat.  I shouldn't have pushed her so hard.... It's all my fault.
+            p.msg.msg-cn
+                | NULL
+        .dialog
+            em.name.name-master
+                | Master
+                span :
+            p.msg.msg-en
+                | That's not like you, Snake.
+            p.msg.msg-cn
+                | NULL
+        .dialog
+            em.name.name-campbell
+                | Campbell
+                span :
+            p.msg.msg-en
+                | Master.  What is it?
+            p.msg.msg-cn
+                | NULL
+        .dialog
+            em.name.name-master
+                | Master
+                span :
+            p.msg.msg-en
+                | Sorry for eavesdropping, but I just couldn't listen anymore.
+            p.msg.msg-cn
+                | NULL
+        .dialog.dialog-snake
+            em.name.name-snake
+                | Snake
+                span :
+            p.msg.msg-en
+                | Master...
+            p.msg.msg-cn
+                | NULL
+        .dialog
+            em.name.name-master
+                | Master
+                span :
+            p.msg.msg-en
+                | Snake, you can have regrets if you want to... it's only natural. But you can't keep attacking yourself for things that happened in the past.  That road leads to madness, believe me.
+            p.msg.msg-cn
+                | NULL
+        .dialog
+            em.name.name-mei-ling
+                | Mei Ling
+                span :
+            p.msg.msg-en
+                | He's right.  Don't kick yourself.  It doesn't suit a legend like you. And besides that, for all we know Meryl's okay, right?
+            p.msg.msg-cn
+                | NULL
+        .dialog.dialog-snake
+            em.name.name-snake
+                | Snake
+                span :
+            p.msg.msg-en
+                | Mei Ling...
+            p.msg.msg-cn
+                | NULL
+        .dialog
+            em.name.name-campbell
+                | Campbell
+                span :
+            p.msg.msg-en
+                | Snake, forget about Meryl.  Stop Liquid.  That's what Meryl would want, too.
+            p.msg.msg-cn
+                | NULL
+        .dialog.dialog-snake
+            em.name.name-snake
+                | Snake
+                span :
+            p.msg.msg-en
+                | You're right.  Meryl would say the same thing.
+            p.msg.msg-cn
+                | NULL
+        .dialog
+            em.name.name-naomi
+                | Naomi
+                span :
+            p.msg.msg-en
+                | Snake.
+            p.msg.msg-cn
+                | NULL
+        .dialog.dialog-snake
+            em.name.name-snake
+                | Snake
+                span :
+            p.msg.msg-en
+                | What?
+            p.msg.msg-cn
+                | NULL
+        .dialog
+            em.name.name-naomi
+                | Naomi
+                span :
+            p.msg.msg-en
+                | Meryl...she's pretty special to you, huh?
+            p.msg.msg-cn
+                | NULL
+        .dialog.dialog-snake
+            em.name.name-snake
+                | Snake
+                span :
+            p.msg.msg-en
+                | Yes, she's special.  There aren't many women like her around.
+            p.msg.msg-cn
+                | NULL
+        .dialog
+            em.name.name-naomi
+                | Naomi
+                span :
+            p.msg.msg-en
+                | That's not what I meant...
+            p.msg.msg-cn
+                | NULL
+        .dialog.dialog-snake
+            em.name.name-snake
+                | Snake
+                span :
+            p.msg.msg-en
+                | She's the Colonel's niece... and a combat buddy.
+            p.msg.msg-cn
+                | NULL
+        .dialog
+            em.name.name-naomi
+                | Naomi
+                span :
+            p.msg.msg-en
+                | Is that all?  C'mon...
+            p.msg.msg-cn
+                | NULL
+        .dialog.dialog-snake
+            em.name.name-snake
+                | Snake
+                span :
+            p.msg.msg-en
+                | This is like a police interrogation.
+            p.msg.msg-cn
+                | NULL
+        .dialog
+            em.name.name-naomi
+                | Naomi
+                span :
+            p.msg.msg-en
+                | No, I just...
+            p.msg.msg-cn
+                | NULL
+        .dialog
+            em.name.name-campbell
+                | Campbell
+                span :
+            p.msg.msg-en
+                | I guess it's in the genes...
+            p.msg.msg-cn
+                | NULL
+        .dialog.dialog-snake
+            em.name.name-snake
+                | Snake
+                span :
+            p.msg.msg-en
+                | The genes?  What are you talking about, Colonel?
+            p.msg.msg-cn
+                | NULL
+        .dialog
+            em.name.name-campbell
+                | Campbell
+                span :
+            p.msg.msg-en
+                | No, I just remembered about Naomi's grandfather.  I think Naomi said he rose as high as assisstant secretary in the FBI during Edgar Hoover's time.
+            p.msg.msg-cn
+                | NULL
+        .dialog.dialog-snake
+            em.name.name-snake
+                | Snake
+                span :
+            p.msg.msg-en
+                | Is that right?
+            p.msg.msg-cn
+                | NULL
+        .dialog
+            em.name.name-naomi
+                | Naomi
+                span :
+            p.msg.msg-en
+                | Yes...yes, he was Japanese and he became a special undercover investigator to nab the mafia.
+            p.msg.msg-cn
+                | NULL
+        .dialog
+            em.name.name-master
+                | Master
+                span :
+            p.msg.msg-en
+                | When was that?
+            p.msg.msg-cn
+                | NULL
+        .dialog
+            em.name.name-naomi
+                | Naomi
+                span :
+            p.msg.msg-en
+                | Oh.. sometime in the 50's, I guess.
+            p.msg.msg-cn
+                | NULL
+        .dialog
+            em.name.name-master
+                | Master
+                span :
+            p.msg.msg-en
+                | Where?
+            p.msg.msg-cn
+                | NULL
+        .dialog
+            em.name.name-naomi
+                | Naomi
+                span :
+            p.msg.msg-en
+                | New York, I think...
+            p.msg.msg-cn
+                | NULL
+        .dialog
+            em.name.name-master
+                | Master
+                span :
+            p.msg.msg-en
+                | Naomi, I thought you didn't have any family...
+            p.msg.msg-cn
+                | NULL
+        .dialog
+            em.name.name-naomi
+                | Naomi
+                span :
+            p.msg.msg-en
+                | Well...I...I researched it after I became an adult.  My grandfather was already dead by the time I learned about him.  I never even had the chance to meet him.
+            p.msg.msg-cn
+                | NULL
+        .dialog
+            em.name.name-campbell
+                | Campbell
+                span :
+            p.msg.msg-en
+                | Oh...
+            p.msg.msg-cn
+                | NULL
+        .dialog
+            em.name.name-naomi
+                | Naomi
+                span :
+            p.msg.msg-en
+                | Snake, good luck.
+            p.msg.msg-cn
+                | NULL
+        .dialog
+            em.name.name-campbell
+                | Campbell
+                span :
+            p.msg.msg-en
+                | Watch your back, Snake.
+                | (Snake signs off and heads for the Communications Tower.  he reaches the top but as soon as he tries to cross to the second tower it is destroyed by missile fire.)
