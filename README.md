@@ -1,5 +1,5 @@
 # MGSX
-tish a Metal Gear Solid (PlayStation1) English to Chinese Translate. include all game audios(voxs?).
+tish a Metal Gear Solid (PlayStation1) English to Chinese Translate. include all game audio(vox?) files.
 
 # Demo
 * [MGSX](http://solidzoro.com/MGSX)
