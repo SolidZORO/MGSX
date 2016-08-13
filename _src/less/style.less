@@ -5,229 +5,233 @@
 
 
 body {
-    font-family: Times;
-    font-size: 100%;
-    margin: 20px 0;
-    color: #558E72;
-    background: url(../img/broken_noise.png) #000;
+  font-family: Menlo, Monaco, Consolas, "Courier New", monospace;
+  //font-family: Times, Tahoma, Arial, "PingFang SC", "Hiragino Sans GB", STHeiti, "Microsoft YaHei", "Microsoft JhengHei", "Source Han Sans SC", "Noto Sans CJK SC", "Source Han Sans CN", "Noto Sans SC", "Source Han Sans TC", "Noto Sans CJK TC", "WenQuanYi Micro Hei", SimSun, sans-serif;
+  font-size: 100%;
+  margin: 20px 0;
+  color: #558E72;
+  background: url(../img/broken_noise.png) #000;
 }
+
 
 p {
-    line-height: 1.6;
+  line-height: 1.6;
 }
+
 
 a {
-    color: #74B595;
+  color: #74B595;
 }
+
 
 audio {
-    margin: 0 auto;
-    margin-bottom: 20px;
+  margin: 0 auto;
+  margin-bottom: 20px;
 
-    @media (min-width: @screen-sm) {
+  @media (min-width: @screen-sm) {
     width: 600px;
-    }
+  }
 }
+
 
 h1 {
-    font-size: 2.5em;
+  font-size: 2.5em;
 }
+
 
 h2.title {
-    font-size: 1.6em;
-    margin-bottom: 25px;
+  font-size: 1.6em;
+  margin: 50px 0;
+  line-height: 1.6;
+
 }
 
+
 img {
-    width: 100%;
-    @media (min-width: @screen-sm) {
+  width: 100%;
+  @media (min-width: @screen-sm) {
     width: auto;
     max-width: 320px;
-    }
+  }
 
 }
 
 
 .warp {
-    width: 96%;
-    margin: 0 auto;
-    padding: 1%;
+  width: 96%;
+  margin: 0 auto;
+  padding: 1%;
 
-    @media (min-width: @screen-sm) {
+  @media (min-width: @screen-sm) {
     width: 645px;
     padding: 0;
-    }
+  }
 }
 
 
 .gallery {
-    margin-bottom: 20px;
+  margin-bottom: 20px;
+  display: block;
+
+  img {
+    padding: 0;
+    margin: 0;
+    margin-bottom: 10px;
     display: block;
 
-    img {
-        padding: 0;
-        margin: 0;
-        margin-bottom: 10px;
-        display: block;
-
-        @media (min-width: @screen-sm) {
-        margin: 0;
-        margin-right: 5px;
-        display: inline-block;
-        }
-
-        &:last-child {
-            @media (min-width: @screen-sm) {
-            margin-right: 0px;
-            }
-        }
+    @media (min-width: @screen-sm) {
+      margin: 0;
+      margin-right: 5px;
+      display: inline-block;
     }
+
+    &:last-child {
+      @media (min-width: @screen-sm) {
+        margin-right: 0px;
+      }
+    }
+  }
 }
 
 
-
 .title {
-    .title-num {
-        margin-right: 10px;
-    }
+  .title-num {
+    margin-right: 10px;
+  }
 
-    .title-en {
-        border-right: 1px solid #333;
-        margin-right: 15px;
-        padding-right: 15px;
-    }
+  .title-en {
+    border-right: 1px solid #333;
+    margin-right: 15px;
+    padding-right: 15px;
+  }
 }
 
 
 .narration {
-    .narration-en, .narration-cn {
-        display: block;
-        margin-bottom: 20px;
-    }
+  margin: 40px 0;
+
+  .narration-en, .narration-cn {
+    display: block;
+    margin-bottom: 20px;
+  }
 }
 
 
 .section, .movie {
-    width: 96%;
-    padding: 0 2%;
-    border-left: 3px solid #2d403c;
-    margin-bottom: 200px;
+  width: 96%;
+  padding: 0 2%;
+  border-left: 3px solid #2d403c;
+  margin-bottom: 200px;
 }
+
 
 .movie {
-    border-left: 3px solid #C5AB43;
+  border-left: 3px solid #C5AB43;
 }
-
-
-
-
 
 
 // 對話框
 .dialog {
-    margin-bottom: 20px;
+  margin-bottom: 40px;
 
-    .name {
-        display: inline-block;
-        font-size: 0.8em;
-        font-style: normal;
-        font-family: 'Courier New', Courier, monospace;
-        background: #36383A;
-        color: #eee;
-        padding: 8px;
-        border-radius: 3px;
-        border-bottom-right-radius: 0;
-        border-bottom-left-radius: 0;
+  .name {
+    display: inline-block;
+    font-size: 0.8em;
+    //font-weight: bold;
+    font-style: normal;
+    //font-family: 'Courier New', Courier, monospace;
+    background: #36383A;
+    color: #eee;
+    padding: 8px;
+    border-radius: 3px;
+    border-bottom-right-radius: 0;
+    border-bottom-left-radius: 0;
 
-        span {
-            display: none;
-        }
+    span {
+      display: none;
+    }
+  }
+
+  .msg {
+    padding: 8px;
+    text-align: left;
+    font-size: 0.85em;
+    //font-family: 'Courier New', Courier, monospace, serif;
+    font-weight: normal;
+    background: #303234;
+    border-radius: 3px;
+    border-top-left-radius: 0;
+    color: #eee;
+
+    &.msg-en {
+      margin-bottom: 0;
+    }
+
+    &.msg-cn {
+      color: #999;
+      background: #282A2C;
+      border-top-right-radius: 0;
+      margin-top: -3px;
+      font-size: 0.7em;
+      font-family: "Avenir Next", Arial, "PingFang SC", "Hiragino Sans GB", STHeiti, "Microsoft YaHei", "Microsoft JhengHei", "Source Han Sans SC", "Noto Sans CJK SC", "Source Han Sans CN", "Noto Sans SC", "Source Han Sans TC", "Noto Sans CJK TC", "WenQuanYi Micro Hei", SimSun, sans-serif;
+    }
+  }
+
+  // snake 對話框
+  &.dialog-snake {
+    text-align: right;
+
+    .name-snake {
+      background: #2B473B;
+      color: #fff;
     }
 
     .msg {
-        padding: 8px;
-        text-align: left;
-        font-size: 0.8em;
-        font-family: 'Courier New', Courier, monospace, serif;
-        font-weight: normal;
-        background: #303234;
-        border-radius: 3px;
-        border-top-left-radius: 0;
-        color: #eee;
-
-
-        &.msg-en {
-            margin-bottom: 0;
-        }
-
-        &.msg-cn {
-            color: #999;
-            background: #282A2C;
-            border-top-right-radius: 0;
-            margin-top: -3px;
-        }
+      border-radius: 3px;
+      border-top-right-radius: 0;
+      background: #273F35;
     }
 
-
-
-
-    // snake 對話框
-    &.dialog-snake {
-        text-align: right;
-
-        .name-snake {
-            background: #2B473B;
-            color: #fff;
-        }
-
-        .msg {
-            border-radius: 3px;
-            border-top-right-radius: 0;
-            background: #273F35;
-        }
-
-        .msg-en {
-            margin-bottom: 0;
-        }
-
-        .msg-cn {
-            background: #1D342A;
-        }
-
+    .msg-en {
+      margin-bottom: 0;
     }
 
+    .msg-cn {
+      background: #1D342A;
+    }
+
+  }
 
 }
 
 
-
 .nav {
-    margin: 20px 0;
-    font-size: small;
+  margin: 20px 0;
+  font-size: small;
 
-    li {
-        display: inline-block;
+  li {
+    display: inline-block;
 
-        a {
-            text-decoration: none;
-            margin-right: 8px;
-            color: #424242;
-        }
+    a {
+      text-decoration: none;
+      margin-right: 8px;
+      color: #424242;
     }
+  }
 
 }
 
 
 .via {
-    margin: 15px 0;
+  margin: 15px 0;
 
-    span {
-        margin: 0 10px;
-    }
+  span {
+    margin: 0 10px;
+  }
 
-    a {
-        margin-left: 10px;
-    }
+  a {
+    margin-left: 10px;
+  }
 }
 
 
